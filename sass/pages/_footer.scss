@@ -1,0 +1,109 @@
+/////////////////////////////////////////////////////////////////////////////////
+/* FOOTER */
+.footer-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-footer.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    //filter: brightness(70%);
+}
+/* VISIT TEXT */
+.footer-text1 {
+    filter: brightness(70%);
+    margin-top: 100px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+.visits {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.loc-list {
+    font-family: "Roboto";
+    font-weight: 400;
+    list-style: none;
+    font-size: 130%;
+}
+.location-icon {
+    font-size: 180%;
+    position: relative;
+    float: left;
+    left: 25%;
+}
+/* CONTACT PHONE */
+.footer-text {
+    filter: brightness(70%);
+    margin-top: 100px;
+    display: block;
+    color: white;
+    float: right;
+}
+.calls {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.phone-list {
+    font-family: "Roboto";
+    font-weight: 400;
+    list-style: none;
+    font-size: 130%;
+}
+.phone-icon {
+    font-size: 180%;
+    position: relative;
+    float: left;
+    left: 10%;
+}
+/* EMAIL TEXT*/
+.footer-text2 {
+    filter: brightness(70%);
+    margin-top: 100px;
+    display: block;
+    float: left;
+    color: white;
+}
+.mails {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.mail-list {
+    font-family: "Roboto";
+    font-weight: 400;
+    list-style: none;
+    font-size: 130%;
+}
+.mail-icon {
+    font-size: 180%;
+    position: relative;
+    float: left;
+    left: 15%;
+}
+.social-icons {
+    filter: brightness(70%);
+    font-size: 200%;
+    color: white;
+    padding-top: 15%;
+    letter-spacing: 10px;
+}
+.fb-icon:hover {
+    color: blue;
+}
+.twit-icon:hover {
+    color: lightskyblue;
+}
+.linkd-icon:hover {
+    color: red;
+}
+.copy-rights {
+    filter: brightness(70%);
+    margin-top: 90px;
+    font-size: 90%; 
+}
+.copy-text {
+    color: white;
+    margin-bottom: 40px;
+}
