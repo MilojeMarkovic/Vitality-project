@@ -7,26 +7,23 @@ header {
   background-position: top;
   position: relative;
   text-align: center; }
-  @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
-    header {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-header.jpg); } }
 
 .small-bull {
-  height: 48px;
+  height: 3rem;
   text-transform: uppercase;
   position: absolute;
   color: white;
-  top: 40px;
-  left: 385px; }
+  top: 2.5rem;
+  left: 25rem; }
 
 .big-bull {
-  height: 256px;
+  height: 15rem;
   position: absolute;
   top: 28%;
   left: 44%; }
 
 .main-text {
-  font-size: 80px;
+  font-size: 5rem;
   text-transform: uppercase;
   color: white;
   display: inline-block;
@@ -36,13 +33,13 @@ header {
 
 .main-text::after {
   display: block;
-  height: 2px;
+  height: .2rem;
   background-color: red;
   content: " ";
-  width: 120px;
+  width: 12rem;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 5px; }
+  margin-top: .5rem;
+  margin-bottom: 1rem; }
 
 .nav-list {
   cursor: pointer;
@@ -53,11 +50,11 @@ header {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  padding: 15px 15px;
-  margin-top: 33px; }
+  padding: 1rem 1rem;
+  margin-top: 2rem; }
 
 .nav-list li:last-child {
-  margin-right: 400px; }
+  margin-right: 25rem; }
 
 .bootstrap-text {
   display: block;
@@ -65,19 +62,17 @@ header {
   top: 67%;
   left: 43%;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 2rem;
   color: white; }
 
 .header-btn {
   position: absolute;
   bottom: 2%;
   left: 49%;
-  transform: rotate(90deg);
-  font-size: 220%;
+  font-size: 200%;
   background-color: transparent;
   color: white;
-  border-color: white;
-  padding: 0 18px 7px 18px;
+  border-color: transparent;
   outline: none;
   cursor: pointer;
   border-radius: 50%; }
@@ -192,12 +187,12 @@ header {
 /* FEATURES SECTION */
 .vitality-description:after {
   display: block;
-  height: 2px;
+  height: 0.2rem;
   background-color: red;
   content: " ";
-  width: 154px;
+  width: 15.4rem;
   margin: 0 auto;
-  margin-top: 15px; }
+  margin-top: 1.5rem; }
 
 .icon-big {
   font-size: 360%;
@@ -205,9 +200,9 @@ header {
   color: black;
   text-align: center; }
 
-.test-text {
-  padding: 5px 25px;
-  margin-bottom: 100px; }
+.icon-description-text {
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 8rem; }
 
 /* OUR TEAM SECTION */
 .section-ourteam {
@@ -218,76 +213,414 @@ header {
   text-align: center; }
 
 .emp3 {
-  height: 338px;
-  width: 367px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  padding: 0 15px;
+  height: 22rem;
+  width: 23.7rem;
+  margin-top: 2rem;
+  margin-bottom: 8rem;
+  padding: 0 .9rem;
   filter: brightness(50%);
   z-index: 1000; }
 
 .emp-text {
   position: absolute;
-  top: 30%;
-  left: 25%;
+  top: 28%;
+  left: 24%;
   color: white;
   filter: brightness(80%); }
 
 .emp-text1 {
   position: absolute;
-  top: 30%;
+  top: 28%;
   right: 44%;
   color: white;
   filter: brightness(80%); }
 
 .emp-text2 {
   position: absolute;
-  top: 30%;
-  right: 25%;
+  top: 28%;
+  right: 24%;
   color: white;
   filter: brightness(80%); }
 
-.emp-text p {
-  color: white;
-  font-weight: 300;
-  margin-bottom: 8px; }
-
-.emp-text1 p {
-  color: white;
-  font-weight: 300;
-  margin-bottom: 8px; }
-
+.emp-text p,
+.emp-text1 p,
 .emp-text2 p {
   color: white;
   font-weight: 300;
-  margin-bottom: 8px; }
+  margin-bottom: .8rem; }
 
 .emp-head {
   font-size: 170%; }
 
 .emp-head:after {
   display: block;
-  height: 2px;
+  height: .2rem;
   background-color: red;
   content: " ";
-  width: 60px;
+  width: 6rem;
   margin: 0 auto;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+.emp-text i,
+.emp-text1 i,
+.emp-text2 i {
+  padding: 0 .5rem; }
+
+/* HOW WE WORK SECTION */
+.section-howwework {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/bg-quote.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.how-we-work {
+  text-align: center;
+  margin: 8% auto; }
+
+.design-text {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 300;
+  margin-top: 17rem;
+  margin-bottom: 1rem; }
+
+.design-text:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 1.5rem; }
+
+.span-design {
+  color: red; }
+
+/* OUR PROCESS SECTION */
+.section-process {
+  position: relative;
+  height: 35rem; }
+
+.our-process-rows {
+  text-align: center; }
+
+.process-head:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 15rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.plans,
+.create,
+.launch {
+  margin-bottom: 1rem;
+  text-align: left; }
+
+.plan-list,
+.create-list,
+.launch-list {
+  margin-bottom: 5rem; }
+
+.plan-list li,
+.create-list li,
+.launch-list li {
+  padding: .5rem 0;
+  text-align: left; }
+
+/* PLAN */
+.process-text {
+  position: absolute;
+  left: 30rem; }
+
+.plan-icon {
+  font-size: 200%;
+  border-style: solid;
+  border-color: #070707;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  left: 23rem; }
+
+/* CREATE */
+.process-text1 {
+  position: absolute;
+  left: 55rem; }
+
+.create-icon {
+  font-size: 200%;
+  border-style: solid;
+  border-color: #070707;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  left: 48rem; }
+
+/* LAUNCH */
+.process-text2 {
+  position: absolute;
+  left: 80rem; }
+
+.launch-icon {
+  font-size: 200%;
+  border-style: solid;
+  border-color: #070707;
+  padding: 1rem 1.6rem 1rem 1.6rem;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  left: 73rem; }
+
+/* OUR WORK SECTION */
+.section-work {
+  background-color: #f0f0f0; }
+
+.ourwork-head:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 15rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.ourwork-text {
+  margin-bottom: 8rem; }
+
+/* WORK PICTURE SECTION */
+.our-work-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh; }
+
+.projectname-head {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  margin: 0;
+  top: 22rem;
+  right: 25rem; }
+
+.ourwork-paragraph {
+  color: white;
+  position: absolute;
+  margin: 0;
+  top: 26rem;
+  right: 35.9rem; }
+
+.ourwork-paragraph:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 14rem;
+  margin: 0 auto;
+  margin-top: 1rem; }
+
+.macbook-pic {
+  width: 100%;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  z-index: 100; }
+
+.picture-in-macbook {
+  z-index: 500;
+  height: 27rem;
+  width: 43rem;
+  position: absolute;
+  top: 15rem;
+  left: 12.7rem;
+  filter: brightness(90%); }
+
+/* PORTFOLIO SECTION */
+.section-portfolio {
+  text-align: center; }
+
+.portfolio-pic {
+  margin-left: 21rem;
+  margin-right: 21rem;
+  margin-bottom: 10rem; }
+
+.portfolio-head:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 15.4rem;
+  margin: 0 auto;
+  margin-top: 1.5rem; }
+
+.grid-pic {
+  width: 30%;
+  height: 30%;
+  padding: .5rem .5rem; }
+
+/* EXPIRIENCE SECTION */
+.section-expirience {
+  background-color: #f0f0f0;
+  text-align: center; }
+
+.expirience-head {
+  margin-top: 10rem; }
+
+.expirience-head:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 15.4rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+.expirience-text {
+  font-size: 110%; }
+
+.testimonial-img {
+  display: inline-block;
+  margin-top: 2rem;
+  margin-right: 0; }
+
+.img-fluid {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%; }
+
+.testimonial-author {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 100%; }
+
+.testimonial-author {
+  margin-top: 1rem;
+  margin-bottom: 8rem;
+  padding-left: 1.5rem; }
+
+.name {
+  font-family: "Raleway",sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: black;
+  font-size: 120%; }
+
+.small {
+  font-size: 90%; }
+
+.star {
+  color: gold; }
+
+.arrow-right {
+  font-size: 200%;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  color: white;
+  background: rgba(255, 0, 0, 0.3);
+  border-color: rgba(142, 30, 30, 0.1);
+  outline: none;
+  float: right;
+  margin-right: 25rem; }
+
+.arrow-left {
+  font-size: 200%;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  color: white;
+  background: rgba(255, 0, 0, 0.3);
+  border-color: rgba(142, 30, 30, 0.1);
+  outline: none;
+  float: left;
+  margin-left: 25rem; }
+
+/* NEWSLETTER */
+.newsletter {
+  text-align: center;
+  background-color: #1b1b1b; }
+
+.headnews {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 6rem; }
+
+.headnews:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+.form-control {
+  width: 30%;
+  padding: .7rem .9rem;
+  color: black;
+  font-family: "Roboto";
+  font-size: 120%;
+  outline: none;
+  margin-bottom: 8rem; }
+
+/* CONTACT SECTION */
+.section-contact {
+  text-align: center;
+  margin-left: 20rem;
+  margin-right: 20rem; }
+
+.contact-us:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.contact-text {
+  margin-bottom: 2rem;
+  font-size: 110%; }
+
+.contact-name {
+  width: 50rem;
+  font-size: 130%;
+  padding: 2rem 1rem;
+  outline: none;
+  border-bottom: white;
+  border-right: white;
+  border-left: white; }
+
+.contact-name1 {
+  width: 50rem;
+  font-size: 130%;
+  padding: 2rem 0 18rem 1rem;
+  outline: none;
+  border-right: white;
+  border-left: white; }
 
 .team-btn {
   position: absolute;
   top: 35%;
-  left: 22%; }
+  left: 21%; }
 
 .team-btn1 {
   position: absolute;
   top: 35%;
-  right: 22%; }
+  right: 21%; }
 
 .ourteam-btn {
   font-size: 200%;
-  padding: 10px 15px;
+  padding: .9rem 1rem;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.74);
   background: rgba(142, 30, 30, 0.5);
@@ -300,54 +633,17 @@ header {
   background: red;
   border-color: red; }
 
-.emp-text i,
-.emp-text1 i,
-.emp-text2 i {
-  padding: 0 5px; }
-
-/* HOW WE WORK SECTION */
-.section-howwework {
-  height: 75vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/bg-quote.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.how-we-work {
-  text-align: center;
-  margin: 8% auto; }
-
-.design-text {
-  font-size: 40px;
-  color: white;
-  font-weight: 300;
-  margin-top: 290px;
-  margin-bottom: 10px; }
-
-.design-text:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 15px; }
-
-.span-design {
-  color: red; }
-
 .btn-text {
   display: inline-block;
-  padding: 15px 30px;
+  padding: 1rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   color: white;
   font-weight: 900;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 1rem;
+  margin-top: .5rem;
   cursor: pointer;
   transition: 0.5s; }
 
@@ -356,151 +652,22 @@ header {
   border-color: white;
   color: red; }
 
-/* OUR PROCESS SECTION */
-.section-process {
-  position: relative;
-  height: 535px; }
-
-.our-process-rows {
-  text-align: center; }
-
-.process-head:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.plans,
-.create,
-.launch {
-  margin-bottom: 10px;
-  text-align: left; }
-
-.plan-list,
-.create-list,
-.launch-list {
-  margin-bottom: 100px; }
-
-.plan-list li,
-.create-list li,
-.launch-list li {
-  padding: 10px 0;
-  text-align: left; }
-
-/* PLAN */
-.process-text {
-  position: absolute;
-  left: 497px; }
-
-.plan-icon {
-  font-size: 200%;
-  border-style: solid;
-  border-color: #070707;
-  padding: 10px 18px 10px 18px;
-  cursor: pointer;
-  border-radius: 50%;
-  position: absolute;
-  left: 405px; }
-
-/* CREATE */
-.process-text1 {
-  position: absolute;
-  left: 876px; }
-
-.create-icon {
-  font-size: 200%;
-  border-style: solid;
-  border-color: #070707;
-  padding: 10px 18px 10px 18px;
-  cursor: pointer;
-  border-radius: 50%;
-  position: absolute;
-  left: 785px; }
-
-/* LAUNCH */
-.process-text2 {
-  position: absolute;
-  left: 1255px; }
-
-.launch-icon {
-  font-size: 200%;
-  border-style: solid;
-  border-color: #070707;
-  padding: 10px 18px 10px 18px;
-  cursor: pointer;
-  border-radius: 50%;
-  position: absolute;
-  left: 1165px; }
-
-/* OUR WORK SECTION */
-.section-work {
-  background-color: #f0f0f0; }
-
-.ourwork-head:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.ourwork-text {
-  margin-bottom: 120px; }
-
-/* WORK PICTURE SECTION */
-.our-work-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
-  background-size: cover;
-  position: relative;
-  height: 95vh; }
-
-.projectname-head {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  margin: 0;
-  top: 385px;
-  right: 395px; }
-
-.ourwork-paragraph {
-  color: white;
-  position: absolute;
-  margin: 0;
-  top: 455px;
-  right: 570px; }
-
-.ourwork-paragraph:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 154px;
-  margin: 0 auto;
-  margin-top: 15px; }
-
 .btn-details {
   display: inline-block;
-  padding: 15px 30px;
+  padding: 1rem 1rem;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   color: white;
   font-weight: 900;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 1rem;
+  margin-top: 1rem;
   cursor: pointer;
   outline: none;
   position: absolute;
-  top: 505px;
-  right: 600px;
+  top: 29rem;
+  right: 38.9rem;
   transition: 0.5s; }
 
 .btn-details:hover {
@@ -508,43 +675,10 @@ header {
   background: white;
   border-color: white; }
 
-.macbook-pic {
-  width: 110%;
-  margin-top: 160px;
-  margin-left: 70px;
-  z-index: 100; }
-
-.picture-in-macbook {
-  z-index: 500;
-  height: 470px;
-  width: 760px;
-  position: absolute;
-  top: 250px;
-  left: 205px;
-  filter: brightness(70%); }
-
-/* PORTFOLIO SECTION */
-.section-portfolio {
-  text-align: center; }
-
-.portfolio-pic {
-  margin-left: 210px;
-  margin-right: 210px;
-  margin-bottom: 105px; }
-
-.portfolio-head:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 154px;
-  margin: 0 auto;
-  margin-top: 15px; }
-
 .btn-portfolio {
   color: black;
-  margin-top: 15px;
-  margin-bottom: 35px;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   border-color: black;
   outline: none;
   cursor: pointer;
@@ -556,114 +690,10 @@ header {
   color: white; }
 
 .btn-portfolio:not(:last-child) {
-  margin-right: 15px; }
-
-.grid-pic {
-  width: 25%;
-  height: 25%;
-  padding: 10px 10px; }
-
-/* EXPIRIENCE SECTION */
-.section-expirience {
-  background-color: #f0f0f0;
-  text-align: center; }
-
-.expirience-head {
-  margin-top: 100px; }
-
-.expirience-head:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 154px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.expirience-text {
-  font-size: 110%; }
-
-.testimonial-img {
-  display: inline-block;
-  margin-top: 40px;
-  margin-right: 0; }
-
-.img-fluid {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%; }
-
-.testimonial-author {
-  display: inline-block;
-  font-weight: 400;
-  font-size: 100%; }
-
-.testimonial-author {
-  margin-top: 40px;
-  margin-bottom: 180px;
-  padding-left: 15px; }
-
-.name {
-  color: black;
-  font-weight: bold; }
-
-.star {
-  color: gold; }
-
-.arrow-right {
-  font-size: 200%;
-  padding: 10px 15px;
-  cursor: pointer;
-  color: white;
-  background: rgba(255, 0, 0, 0.3);
-  border-color: rgba(142, 30, 30, 0.1);
-  outline: none;
-  float: right;
-  margin-right: 400px; }
-
-.arrow-left {
-  font-size: 200%;
-  padding: 10px 15px;
-  cursor: pointer;
-  color: white;
-  background: rgba(255, 0, 0, 0.3);
-  border-color: rgba(142, 30, 30, 0.1);
-  outline: none;
-  float: left;
-  margin-left: 400px; }
-
-/* NEWSLETTER */
-.newsletter {
-  text-align: center;
-  background-color: #1b1b1b; }
-
-.headnews {
-  color: white;
-  text-transform: uppercase;
-  margin-top: 100px; }
-
-.headnews:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 15px; }
-
-.form-control {
-  width: 30%;
-  padding: 7px 20px;
-  color: black;
-  font-family: "Roboto";
-  font-size: 120%;
-  outline: none;
-  margin-bottom: 100px; }
+  margin-right: 1.5rem; }
 
 .subscribe-btn {
-  padding: 10px 15px;
+  padding: .9rem 1.5rem;
   text-transform: uppercase;
   font-weight: 900;
   color: white;
@@ -672,53 +702,16 @@ header {
   outline: none;
   cursor: pointer; }
 
-/* CONTACT SECTION */
-.section-contact {
-  text-align: center;
-  margin-left: 560px;
-  margin-right: 560px; }
-
-.contact-us:after {
-  display: block;
-  height: 2px;
-  background-color: red;
-  content: " ";
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.contact-text {
-  margin-bottom: 20px;
-  font-size: 110%; }
-
-.contact-name {
-  width: 734px;
-  font-size: 130%;
-  padding: 30px 10px;
-  outline: none;
-  border-bottom: white;
-  border-right: white;
-  border-left: white; }
-
-.contact-name1 {
-  width: 734px;
-  font-size: 130%;
-  padding: 20px 0 180px 10px;
-  outline: none;
-  border-right: white;
-  border-left: white; }
-
 .contact-btn {
   color: black;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  margin-right: 630px;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  margin-right: 44rem;
   border-color: black;
-  border-width: 1px;
+  border-width: .1rem;
   outline: none;
   cursor: pointer;
-  padding: 15px 20px;
+  padding: 1rem 1.5rem;
   text-transform: uppercase;
   font-weight: 900;
   background-color: transparent;
@@ -738,7 +731,7 @@ header {
   font-size: 170%;
   display: block;
   background-color: #1b1b1b;
-  padding: 50px 50px;
+  padding: 3rem 3rem;
   text-decoration: none;
   color: white;
   transition: 0.5s; }
@@ -1214,6 +1207,16 @@ header {
 .pricinghead {
   color: white; }
 
+.pricinghead:after {
+  display: block;
+  height: .2rem;
+  background-color: red;
+  content: " ";
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
 .pricingtext {
   color: white;
   font-size: 110%; }
@@ -1275,8 +1278,8 @@ header {
   color: black; }
 
 .dolar {
-  font-size: 50%;
-  padding: 10px 10px;
+  font-size: 70%;
+  padding: 10px 4px;
   position: relative;
   bottom: 15px;
   left: 15px;
@@ -1286,6 +1289,7 @@ header {
   font-size: 40%; }
 
 .number {
+  font-size: 120%;
   font-weight: 900; }
 
 /* CARD1 */
@@ -1340,8 +1344,8 @@ header {
 html {
   font-size: 100%;
   /*
-    @include respond(tab-land) { // width < 1200?
-        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    @include respond(tab-land) {
+        font-size: 56.25%;
     }
 
     @include respond(tab-port) { // width < 900?
@@ -1354,16 +1358,11 @@ html {
 */ }
 
 body {
-  box-sizing: border-box;
-  /*
-    @include respond(tab-port) {
-        padding: 0;
-    }
-*/ }
+  box-sizing: border-box; }
 
 h2 {
-  margin-top: 100px;
-  margin-bottom: 10px;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
   font-size: 340%;
   text-transform: uppercase; }
 
@@ -1389,3 +1388,21 @@ p {
   font-family: "Roboto",sans-serif;
   font-weight: 300;
   text-align: center; }
+
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/

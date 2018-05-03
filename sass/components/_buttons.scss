@@ -1,0 +1,148 @@
+.team-btn {
+    position: absolute;
+    top: 35%;
+    left: 21%;
+}
+.team-btn1 {
+    position: absolute;
+    top: 35%;
+    right: 21%;
+}
+.ourteam-btn {
+    font-size: 200%;
+    padding: .9rem 1rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.74);
+    background:rgba(142, 30, 30, 0.5);
+    border-color: rgba(142, 30, 30, 0.5);
+    outline: none;
+    transition: 0.5s;
+}
+.ourteam-btn:hover {
+    color:white;
+    background: red;
+    border-color: red;
+}
+
+///////////////////////////////////////////////////////////////
+
+.btn-text {
+    display: inline-block;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-text:hover {
+    background-color: white;
+    border-color: white;
+    color:red;
+}
+
+//////////////////////////////////////////////////////////////////
+
+.btn-details {
+    display: inline-block;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 29rem;
+    right: 38.9rem;
+    transition: 0.5s;
+}
+.btn-details:hover {
+    color:red;
+    background: white;
+    border-color: white;
+}
+
+//////////////////////////////////////////////////////////////////
+
+.btn-portfolio {
+    color: black;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    border-color: black;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-portfolio:hover {
+    background-color: red;
+    border-color: red;
+    color:white;
+}
+.btn-portfolio:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+//////////////////////////////////////////////////////////////////////
+
+.subscribe-btn {
+    padding: .9rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    border-color: red;
+    outline: none;
+    cursor: pointer;   
+}
+
+////////////////////////////////////////////////////////////////////
+
+.contact-btn {
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-right: 44rem;
+    border-color: black;
+    border-width: .1rem;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem; 
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.contact-btn:hover {
+    background-color: red;
+    border-color: red;
+    color:white;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/* VITAL BUTTON */
+.vital-button {
+    text-align: center;
+}
+.btn-block {
+    font-family: "Roboto";
+    font-size: 170%;
+    display: block;
+    background-color: rgb(27, 27, 27); 
+    padding: 3rem 3rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.btn-block:hover {
+    background-color: red;
+}

@@ -7,33 +7,23 @@ header {
     background-position: top;
     position: relative;
     text-align: center;
-
-    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
-    only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
-    only screen and (min-width: 125em) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), 
-    rgba(0, 0, 0, 0.1)),
-    url(../img/backgrounds/bg-header.jpg);
-}
-
-
 }
 .small-bull {
-    height: 48px;
+    height: 3rem;
     text-transform: uppercase;
     position: absolute; 
     color: white;
-    top: 40px;
-    left: 385px;
+    top: 2.5rem;
+    left: 25rem;
 }
 .big-bull {
-    height: 256px;
+    height: 15rem;
     position: absolute;
     top: 28%;
     left: 44%;
 }
 .main-text {
-    font-size: 80px;
+    font-size: 5rem;
     text-transform: uppercase;
     color: white;
     display: inline-block;
@@ -43,13 +33,13 @@ header {
 }
 .main-text::after {
     display: block;
-    height: 2px;
+    height: .2rem;
     background-color: red;
     content: " ";
-    width: 120px;
+    width: 12rem;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 .nav-list {
     cursor: pointer;
@@ -60,11 +50,11 @@ header {
     display:inline-block;
     color: #fff;
     font-weight: 400;
-    padding: 15px 15px;
-    margin-top: 33px;;  
+    padding: 1rem 1rem;
+    margin-top: 2rem;  
 }
 .nav-list li:last-child {
-    margin-right: 400px;
+    margin-right: 25rem;
 }
 .bootstrap-text {
     display: block;
@@ -72,19 +62,17 @@ header {
     top: 67%;
     left: 43%;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 2rem;
     color: white;
 }
 .header-btn {
     position: absolute;
     bottom: 2%;
     left: 49%; 
-    transform: rotate(90deg);
-    font-size: 220%;
+    font-size: 200%;
     background-color: transparent;
     color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
-    padding: 0 18px 7px 18px;
+    border-color: transparent;
     outline: none;
     cursor: pointer;
     border-radius: 50%;
