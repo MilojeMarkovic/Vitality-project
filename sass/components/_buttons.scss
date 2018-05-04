@@ -1,9 +1,21 @@
-.team-btn {
+/////// BUTTON HOVER /////////
+.btn:hover {
+    color:white;
+    background: red;
+    border-color: red;
+}
+.btn--1:hover {
+    background-color: white;
+    border-color: white;
+    color:red;
+}
+/////////////////////////////////////////////////////////////////////////
+.team-btn-right {
     position: absolute;
     top: 35%;
     left: 21%;
 }
-.team-btn1 {
+.team-btn-left {
     position: absolute;
     top: 35%;
     right: 21%;
@@ -18,14 +30,7 @@
     outline: none;
     transition: 0.5s;
 }
-.ourteam-btn:hover {
-    color:white;
-    background: red;
-    border-color: red;
-}
-
 ///////////////////////////////////////////////////////////////
-
 .btn-text {
     display: inline-block;
     padding: 1rem 1rem;
@@ -40,14 +45,7 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.btn-text:hover {
-    background-color: white;
-    border-color: white;
-    color:red;
-}
-
 //////////////////////////////////////////////////////////////////
-
 .btn-details {
     display: inline-block;
     padding: 1rem 1rem;
@@ -66,14 +64,7 @@
     right: 38.9rem;
     transition: 0.5s;
 }
-.btn-details:hover {
-    color:red;
-    background: white;
-    border-color: white;
-}
-
 //////////////////////////////////////////////////////////////////
-
 .btn-portfolio {
     color: black;
     margin-top: 1.5rem;
@@ -83,30 +74,22 @@
     cursor: pointer;
     transition: 0.5s;
 }
-.btn-portfolio:hover {
-    background-color: red;
-    border-color: red;
-    color:white;
-}
 .btn-portfolio:not(:last-child) {
     margin-right: 1.5rem;
 }
-
 //////////////////////////////////////////////////////////////////////
-
 .subscribe-btn {
-    padding: .9rem 1.5rem;
+    padding: .9rem 1.5rem .8rem 1.5rem;
     text-transform: uppercase;
     font-weight: 900;
     color: white;
     background-color: red;
-    border-color: red;
+    border:none;
     outline: none;
-    cursor: pointer;   
+    cursor: pointer; 
+    transition: .5s;  
 }
-
 ////////////////////////////////////////////////////////////////////
-
 .contact-btn {
     color: black;
     margin-top: 2rem;
@@ -122,12 +105,6 @@
     background-color: transparent;
     transition: 0.5s;
 }
-.contact-btn:hover {
-    background-color: red;
-    border-color: red;
-    color:white;
-}
-
 ///////////////////////////////////////////////////////////////////////////////
 /* VITAL BUTTON */
 .vital-button {

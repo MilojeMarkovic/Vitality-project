@@ -354,6 +354,7 @@
     outline: none;
     float: right;
     margin-right: 25rem;
+    transition: .5s;
 }
 .arrow-left {
     font-size: 200%;
@@ -365,6 +366,7 @@
     outline: none;
     float: left;
     margin-left: 25rem;
+    transition: .5s;
 }
 ///////////////////////////////////////////////////////////////////////////////////
 /* NEWSLETTER */
@@ -389,6 +391,7 @@
 }
 .form-control {
     width: 30%;
+    border: none;
     padding: .7rem .9rem;
     color: black; 
     font-family: "Roboto";
