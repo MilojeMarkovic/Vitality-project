@@ -1,0 +1,118 @@
+@media only screen and (max-width: 1366px) {
+    //////////////////////////// HEADER //////////////////////////////////
+    .small-bull {
+        left: 8rem;
+    }
+    .nav-list li:last-child {
+        margin-right: 7rem;
+    }
+    .big-bull {
+        top: 22%;
+        left: 42%;
+    }
+    .main-text {
+        left: 38%;
+        top: 60%;
+    }
+    .bootstrap-text {
+        top: 77%;
+        left: 41%;
+    }
+//////////////////////////// ORU TEAM //////////////////////////////////
+    .emp-text {
+        left:14%;
+    }
+    .emp-text1 {
+        right:42%;
+    }
+    .emp-text2 {
+        right:14%;
+    }
+    .team-btn-right {
+        left: 8.5%;
+    }
+    .team-btn-left {
+        right: 8.5%;
+    }
+/////////////////////////// DESIGN /////////////////////////////////////
+    .section-howwework {
+        height: 100vh;
+    }
+////////////////////////// OUR PROCESS ////////////////////////////////
+    .process-text {
+        left: 17rem;
+    }
+    .process-text1 {
+        left: 40rem;
+    }
+    .process-text2 {
+        left: 63rem;
+    }
+    .plan-icon {
+        left: 10rem;
+    }
+    .create-icon {
+        left: 33rem;
+    }
+    .launch-icon {
+        left: 56rem;
+    }
+/////////////////////////// OUR WORK //////////////////////////////////////
+    .our-work-pic {
+    height: 110vh;
+    }
+    .picture-in-macbook {
+        height: 19rem;
+        width: 30.6rem;
+        top: 13.7rem;
+        left: 10.5rem;
+    }
+    .projectname-head {
+        top: 18rem;
+        right: 10rem;
+    }
+    .ourwork-paragraph {
+        top: 22rem;
+        right: 20.9rem;
+    }
+    .btn-details {
+        top: 25rem;
+        right: 23.9rem;
+    }
+////////////////////////// OUR PORTFOLIO ////////////////////////////////////
+    .portfolio-pic {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 8rem;
+    }
+    .grid-pic {
+        width: 28%;
+        height: 28%;
+        padding: .5rem .5rem;
+    }
+///////////////////////// EXPIRIENCE ////////////////////////////////////////
+    .arrow-right {
+    padding: .5rem .7rem;
+    margin-right: 12rem;
+    }
+    .arrow-left {
+    padding: .5rem .7rem;
+    margin-left: 12rem;
+    }
+////////////////////////// PRICING ////////////////////////////////////////////
+    .card-1 {
+        right: 8rem;
+    }
+/* CARD - 2 */
+    .card-2 {
+        left: 7.5rem;
+    }
+/* CARD - 3*/
+    .card-3 {
+        left: 8rem;
+    }
+/////////////////////////// NEWSLETTER ///////////////////////////////////////
+    .form-control {
+        width: 40%;
+    }
+}

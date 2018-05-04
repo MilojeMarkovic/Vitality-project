@@ -1326,20 +1326,7 @@ header {
   margin: 0 auto; }
 
 html {
-  font-size: 100%;
-  /*
-    @include respond(tab-land) {
-        font-size: 56.25%;
-    }
-
-    @include respond(tab-port) { // width < 900?
-        font-size: 50%; //1 rem = 8px, 8/16 = 50%
-    }
-    
-    @include respond(big-desktop) {
-        font-size: 75%; //1rem = 12, 12/16
-    }
-*/ }
+  font-size: 100%; }
 
 body {
   box-sizing: border-box; }
@@ -1373,20 +1360,81 @@ p {
   font-weight: 300;
   text-align: center; }
 
-/*
-0 - 600px:      Phone
-600 - 900px:    Tablet portrait
-900 - 1200px:   Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px + :      Big desktop
-
-$breakpoint arguement choices:
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-ORDER: Base + typography > general layout + grid > page layout > components
-
-1em = 16px
-*/
+@media only screen and (max-width: 1366px) {
+  .small-bull {
+    left: 8rem; }
+  .nav-list li:last-child {
+    margin-right: 7rem; }
+  .big-bull {
+    top: 22%;
+    left: 42%; }
+  .main-text {
+    left: 38%;
+    top: 60%; }
+  .bootstrap-text {
+    top: 77%;
+    left: 41%; }
+  .emp-text {
+    left: 14%; }
+  .emp-text1 {
+    right: 42%; }
+  .emp-text2 {
+    right: 14%; }
+  .team-btn-right {
+    left: 8.5%; }
+  .team-btn-left {
+    right: 8.5%; }
+  .section-howwework {
+    height: 100vh; }
+  .process-text {
+    left: 17rem; }
+  .process-text1 {
+    left: 40rem; }
+  .process-text2 {
+    left: 63rem; }
+  .plan-icon {
+    left: 10rem; }
+  .create-icon {
+    left: 33rem; }
+  .launch-icon {
+    left: 56rem; }
+  .our-work-pic {
+    height: 110vh; }
+  .picture-in-macbook {
+    height: 19rem;
+    width: 30.6rem;
+    top: 13.7rem;
+    left: 10.5rem; }
+  .projectname-head {
+    top: 18rem;
+    right: 10rem; }
+  .ourwork-paragraph {
+    top: 22rem;
+    right: 20.9rem; }
+  .btn-details {
+    top: 25rem;
+    right: 23.9rem; }
+  .portfolio-pic {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 8rem; }
+  .grid-pic {
+    width: 28%;
+    height: 28%;
+    padding: .5rem .5rem; }
+  .arrow-right {
+    padding: .5rem .7rem;
+    margin-right: 12rem; }
+  .arrow-left {
+    padding: .5rem .7rem;
+    margin-left: 12rem; }
+  .card-1 {
+    right: 8rem; }
+  /* CARD - 2 */
+  .card-2 {
+    left: 7.5rem; }
+  /* CARD - 3*/
+  .card-3 {
+    left: 8rem; }
+  .form-control {
+    width: 40%; } }
