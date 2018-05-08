@@ -1,18 +1,18 @@
 @media only screen and (max-width: 1366px) {
     //////////////////////////// HEADER //////////////////////////////////
     .small-bull {
-        left: 8rem;
+        left: 12rem;
     }
     .nav-list li:last-child {
-        margin-right: 7rem;
+        margin-right: 12rem;
     }
     .big-bull {
-        top: 22%;
-        left: 42%;
+        top: 21%;
+        left: 41.5%;
     }
     .main-text {
-        left: 38%;
-        top: 60%;
+        left: 37%;
+        top: 59%;
     }
     .bootstrap-text {
         top: 77%;
@@ -20,19 +20,19 @@
     }
 //////////////////////////// ORU TEAM //////////////////////////////////
     .emp-text {
-        left:14%;
+        left:16%;
     }
     .emp-text1 {
         right:42%;
     }
     .emp-text2 {
-        right:14%;
+        right:16%;
     }
     .team-btn-right {
-        left: 8.5%;
+        left: 15rem;
     }
     .team-btn-left {
-        right: 8.5%;
+        right: 15rem;
     }
 /////////////////////////// DESIGN /////////////////////////////////////
     .section-howwework {
@@ -40,44 +40,41 @@
     }
 ////////////////////////// OUR PROCESS ////////////////////////////////
     .process-text {
-        left: 17rem;
+        left: 25rem;
     }
     .process-text1 {
-        left: 40rem;
+        left: 60rem;
     }
     .process-text2 {
-        left: 63rem;
+        left: 100rem;
     }
     .plan-icon {
-        left: 10rem;
+        left: 15rem;
     }
     .create-icon {
-        left: 33rem;
+        left: 50rem;
     }
     .launch-icon {
-        left: 56rem;
+        left: 90rem;
     }
 /////////////////////////// OUR WORK //////////////////////////////////////
     .our-work-pic {
     height: 110vh;
     }
+    .macbook-pic {
+        width: 67rem;
+        margin-top: 17rem;
+        margin-left: 8rem; 
+        z-index: 100;
+    }
     .picture-in-macbook {
-        height: 19rem;
-        width: 30.6rem;
-        top: 13.7rem;
-        left: 10.5rem;
+        height: 31rem;
+        width: 49rem;
+        top: 22.5rem;
+        left: 17rem;
     }
     .projectname-head {
-        top: 18rem;
-        right: 10rem;
-    }
-    .ourwork-paragraph {
-        top: 22rem;
-        right: 20.9rem;
-    }
-    .btn-details {
-        top: 25rem;
-        right: 23.9rem;
+        margin-top: 30rem;   
     }
 ////////////////////////// OUR PORTFOLIO ////////////////////////////////////
     .portfolio-pic {
@@ -101,18 +98,26 @@
     }
 ////////////////////////// PRICING ////////////////////////////////////////////
     .card-1 {
-        right: 8rem;
+        right: 12rem;
     }
 /* CARD - 2 */
     .card-2 {
-        left: 7.5rem;
+        left: 10.5rem;
     }
 /* CARD - 3*/
     .card-3 {
-        left: 8rem;
+        left: 12rem;
     }
 /////////////////////////// NEWSLETTER ///////////////////////////////////////
     .form-control {
         width: 40%;
+    }
+////////////////////////// CONTACT US ////////////////////////////////////////
+.section-contact {
+    text-align: center;
+}
+.contact-form {
+    margin-left: 10rem;
+    margin-right: 10rem;
     }
 }

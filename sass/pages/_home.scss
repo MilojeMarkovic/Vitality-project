@@ -2,21 +2,21 @@
 /* FEATURES SECTION */
 .vitality-description:after {
     display: block;
-    height: 0.2rem;
+    height: 0.1rem;
     background-color: red;
     content: " ";
-    width: 15.4rem;
+    width: 15rem;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 .icon-big {
-    font-size: 360%;
+    font-size: 6rem;
     display: block;
     color: black;
     text-align: center;
 }
 .icon-description-text {
-    padding: 0.5rem 2.5rem;
+    margin-top: 1.8rem;
     margin-bottom: 8rem;
 }
 ///////////////////////////////////////////////////////
@@ -28,32 +28,32 @@
     text-align: center;
 }
 .emp3 {
-    height: 22rem;
-    width: 23.7rem;
+    height: 33.8rem;
+    width: 35.4rem;
     margin-top: 2rem;
     margin-bottom: 8rem;
-    padding: 0 .9rem;
+    padding: 0 1rem;
     filter: brightness(50%);
     z-index: 1000;
 }
 .emp-text {
     position: absolute;
-    top:28%;
-    left:24%;
+    top:29%;
+    left:26%;
     color: rgb(255, 255, 255);
     filter: brightness(80%);
 }
 .emp-text1 {
     position: absolute;
-    top:28%;
-    right:44%;
+    top:29%;
+    right:45%;
     color: white;
     filter: brightness(80%);
 }
 .emp-text2 {
     position: absolute;
-    top:28%;
-    right:24%;
+    top:29%;
+    right:26%;
     color: white;
     filter: brightness(80%);
 }
@@ -64,18 +64,15 @@
     font-weight: 300;
     margin-bottom: .8rem;
 }
-.emp-head {
-    font-size: 170%;
-}
 .emp-head:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
     width: 6rem;
     margin: 0 auto;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
 }
 .emp-text i,
 .emp-text1 i,
@@ -94,40 +91,39 @@
 }
 .how-we-work {
     text-align: center;
-    margin: 8% auto;
+   //margin: 8% auto;
 }
 .design-text {
-    font-size: 2.5rem;  
+    font-size: 4rem;  
     color: white;
     font-weight: 300;
-    margin-top: 17rem;
-    margin-bottom: 1rem;
+    margin-top: 30rem;
+    margin-bottom: 2rem;
 }
 .design-text:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 10rem;
+    width: 15rem;
     margin: 0 auto;
     margin-top: 1.5rem;
 }
 .span-design {
     color: red;
 }
-
 //////////////////////////////////////////////////////////
 /* OUR PROCESS SECTION */
 .section-process {
     position: relative;
-    height: 35rem;
+    height: 53rem;
 }
 .our-process-rows {
     text-align: center;
 }
 .process-head:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
     width: 15rem;
@@ -138,67 +134,68 @@
 .plans,
 .create,
 .launch {
+    margin-top: 1rem;
     margin-bottom: 1rem;
     text-align: left;
 }
 .plan-list,
 .create-list,
 .launch-list {
-    margin-bottom: 5rem;
+    font-size: 1.7rem;
 }
 .plan-list li,
 .create-list li,
 .launch-list li {
-    padding: .5rem 0;
+    padding: 1rem 0;
     text-align: left;
 }
 /* PLAN */
 .process-text {
     position: absolute;
-    left: 30rem;
+    left: 55rem;
 }
 .plan-icon { 
-    font-size: 200%;
+    font-size: 4rem;
     border-style: solid;
     border-color: rgb(7, 7, 7);
-    padding: 1rem 1.6rem 1rem 1.6rem;
+    padding: 1rem 2rem 1rem 2rem;
     cursor: pointer;
     border-radius: 50%;
 
     position: absolute;
-    left: 23rem;
+    left: 45rem;
 }
 /* CREATE */ 
 .process-text1 {
     position: absolute;
-    left: 55rem;
+    left: 90rem;
 }
 .create-icon {
-    font-size: 200%;
+    font-size: 4rem;
     border-style: solid;
     border-color: rgb(7, 7, 7);
-    padding: 1rem 1.6rem 1rem 1.6rem;
+    padding: 1rem 1.8rem 1rem 1.8rem;
     cursor: pointer;
     border-radius: 50%;
 
     position: absolute;
-    left: 48rem;
+    left: 80rem;
 }
 /* LAUNCH */
 .process-text2 {
     position: absolute;
-    left: 80rem;
+    left: 125rem;
 }
 .launch-icon {
-    font-size: 200%;
+    font-size: 4rem;
     border-style: solid;
     border-color: rgb(7, 7, 7);
-    padding: 1rem 1.6rem 1rem 1.6rem;
+    padding: 1rem 1.8rem 1rem 1.8rem;
     cursor: pointer;
     border-radius: 50%;
 
     position: absolute;
-    left: 73rem;
+    left: 115rem;
 }
 ///////////////////////////////////////////////////////
 /* OUR WORK SECTION */
@@ -207,7 +204,7 @@
 }
 .ourwork-head:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
     width: 15rem;
@@ -229,40 +226,37 @@
     color: white;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    position: absolute;
-    margin: 0;
-    top: 22rem;
-    right: 25rem;
+    text-align: left;
+    margin-top: 40rem;
+    margin-left: 15rem;
 }
 .ourwork-paragraph {
     color: white;
-    position: absolute;
-    margin: 0;
-    top: 26rem;
-    right: 35.9rem;
+    text-align: left;
+    margin-left: 15rem;
 }
 .ourwork-paragraph:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 14rem;
-    margin: 0 auto;
+    width: 15rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .macbook-pic{
-    width: 100%;
-    margin-top: 10rem;
-    margin-left: 5rem; 
+    width: 99rem;
+    margin-top: 17rem;
+    margin-left: 7rem; 
     z-index: 100;
 }
 .picture-in-macbook {
     z-index: 500;
-    height: 27rem;
-    width: 43rem;
+    height: 46rem;
+    width: 73rem;
     position: absolute;
-    top: 15rem;
-    left: 12.7rem;
+    top: 25rem;
+    left: 20rem;
     filter: brightness(90%);
 }
 ////////////////////////////////////////////////////////
@@ -271,23 +265,24 @@
     text-align: center;
 }
 .portfolio-pic {
-    margin-left: 21rem;
-    margin-right: 21rem;
+    margin-left: 39rem;
+    margin-right: 39rem;
     margin-bottom: 10rem;
 }
 .portfolio-head:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 15.4rem;
+    width: 15rem;
     margin: 0 auto;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 .grid-pic {
-    width: 30%;
-    height: 30%;
-    padding: .5rem .5rem;
+    width: 37rem;
+    height: 25rem;
+    padding: 1rem 1rem;
 }
 ////////////////////////////////////////////////////////////
 /* EXPIRIENCE SECTION */
@@ -300,16 +295,13 @@
  }
  .expirience-head:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
     width: 15.4rem;
     margin: 0 auto;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-}
-.expirience-text {
-    font-size: 110%;
 }
 .testimonial-img  {
     display: inline-block;
@@ -336,16 +328,18 @@
     font-weight: 900;
     text-transform: uppercase;
     color: black;
-    font-size: 120%;
+    font-size: 1.5rem;
 }
 .small {
-    font-size: 90%;
+    font-size: 1.3rem;
+    margin: .2rem 0;
 }
 .star {
     color: gold;
+    font-size: 2rem;
 }
 .arrow-right {
-    font-size: 200%;
+    font-size: 3rem;
     padding: 1rem 1rem;
     cursor: pointer;
     color: white;
@@ -353,11 +347,12 @@
     border-color: rgba(142, 30, 30, 0.1);
     outline: none;
     float: right;
-    margin-right: 25rem;
+    margin-right: 45rem;
+    bottom: 50rem;
     transition: .5s;
 }
 .arrow-left {
-    font-size: 200%;
+    font-size: 3rem;
     padding: 1rem 1rem;
     cursor: pointer;
     color: white;
@@ -365,37 +360,39 @@
     border-color: rgba(142, 30, 30, 0.1);
     outline: none;
     float: left;
-    margin-left: 25rem;
+    margin-left: 45rem;
+    bottom: 50rem;
     transition: .5s;
 }
 ///////////////////////////////////////////////////////////////////////////////////
 /* NEWSLETTER */
 .newsletter {
     text-align: center;
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(34, 34, 34);
 }
 .headnews {
     color: white;
     text-transform: uppercase;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 .headnews:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
     width: 10rem;
     margin: 0 auto;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .form-control {
     width: 30%;
     border: none;
-    padding: .7rem .9rem;
-    color: black; 
+    padding: 1.2rem 1.5rem;
+    color: rgb(34, 34, 34); 
     font-family: "Roboto";
-    font-size: 120%;
+    font-weight: 300;
+    font-size: 2rem;
     outline: none;
     margin-bottom: 8rem;
 }
@@ -403,36 +400,43 @@
 /* CONTACT SECTION */
 .section-contact {
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+}
+.contact-form {
+    margin-left: 58rem;
+    margin-right: 58rem;
 }
 .contact-us:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 10rem;
+    width: 15rem;
     margin: 0 auto;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .contact-text {
     margin-bottom: 2rem;
-    font-size: 110%;
 }
 .contact-name {
-    width: 50rem;
-    font-size: 130%;
-    padding: 2rem 1rem;
+    width: 70rem;
+    font-size: 2.5rem;
+    padding: 3rem 1rem;
+    font-family: "Roboto";
+    font-weight: 300;
+    border-width: .1rem;
     outline: none;
     border-bottom: white;
     border-right: white;
     border-left: white;
 }
 .contact-name1 {
-    width: 50rem;
-    font-size: 130%;
+    width: 70rem;
+    font-size: 2.5rem;
     padding: 2rem 0 18rem 1rem;
+    font-family: "Roboto";
+    font-weight: 300;
+    border-width: .1rem;
     outline: none;
     border-right: white;
     border-left: white;

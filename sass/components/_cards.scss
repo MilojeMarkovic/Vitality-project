@@ -9,29 +9,27 @@
 }
 .pricinghead:after {
     display: block;
-    height: .2rem;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 10rem;
+    width: 15rem;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
 .pricingtext {
     color: white;
-    font-size: 110%;
 }
 .cardhead {
     text-transform: uppercase;
     color: black;
-    font-weight: 900;
 }
 .cardhead:after {
     display: block;
-    height: 2px;
+    height: .1rem;
     background-color: red;
     content: " ";
-    width: 100px;
+    width: 10rem;
     margin: 0 auto;
     margin-top: 15px;
 }
@@ -40,14 +38,15 @@
     text-decoration: none;
 }
 .card__details {
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 .card__details li {
+    font-size: 1.6rem;
     border-style: solid;
-    border-color: lightgrey;
-    border-width: 1px;
-    padding: 15px 65px;
+    border-color: #d3d3d3;
+    border-width: .1rem;
+    padding: 1.5rem 7rem;
 }
 .card__details li:not(:last-child) {
     border-bottom-color: white;
@@ -56,21 +55,21 @@
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: rgb(34, 34, 34);
     font-weight: 900;
-    margin-top: 20px;
-    border-color: black;
+    margin-top: 2rem;
+    border-color: rgb(34, 34, 34);
     outline: none;
     cursor: pointer;
     background-color: transparent;
-    border-width: 1px;
-    padding: 15px 20px;
+    border-width: .1rem;
+    padding: 1.5rem 2rem;
     transition: 0.5s;
 }
 .card-price {
-    font-size: 250%;
+    font-size: 5rem;
     margin-bottom: 20px;
-    color: black;
+    color: rgb(34, 34, 34);
 }
 .dolar {
     font-size: 70%;
@@ -82,8 +81,7 @@
 }
 .month { font-size: 40%; }
 
-.number {
-    font-size: 120%; 
+.number { 
     font-weight: 900;
 }
 /* CARD1 */
@@ -108,7 +106,7 @@
     border-right-color: black;
     border-left-color: black;
     margin-top: 22px;
-    left: 397px;
+    left: 38.5rem;
     padding: 40px 35px;
     box-shadow: -30px 0 30px -30px rgb(3, 3, 3), 30px 0 30px -30px rgb(3, 3, 3);
 }

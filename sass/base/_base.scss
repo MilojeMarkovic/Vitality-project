@@ -6,15 +6,14 @@
     box-sizing: inherit;
 }
 .row {
-    max-width: 1940px;
+    max-width: 194em;
     margin: 0 auto;
 }
 html {
-    font-size: 100%; //1 rem = 10px; 10px/16px = 62.5% // 16px/16px = 1 * 100 = 100%;
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5% // 16px/16px = 1 * 100 = 100%;
 }
 body {
     box-sizing: border-box;
-
 }
 
 

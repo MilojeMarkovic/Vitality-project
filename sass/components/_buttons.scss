@@ -13,16 +13,16 @@
 .team-btn-right {
     position: absolute;
     top: 35%;
-    left: 20.6%;
+    left: 22.5%;
 }
 .team-btn-left {
     position: absolute;
     top: 35%;
-    right: 20.6%;
+    right: 22.5%;
 }
 .ourteam-btn {
-    font-size: 200%;
-    padding: .9rem 1rem;
+    font-size: 3.5rem;
+    padding: 1rem 1rem;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.74);
     background:rgba(142, 30, 30, 0.5);
@@ -33,36 +33,36 @@
 ///////////////////////////////////////////////////////////////
 .btn-text {
     display: inline-block;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1.5rem;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: white;
     font-weight: 900;
-    font-size: 1rem;
-    margin-top: .5rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: 0.5s;
+    border-width: .1rem;
 }
 //////////////////////////////////////////////////////////////////
 .btn-details {
     display: inline-block;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1.5rem;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border-width: .1rem;
     color: white;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.7rem;
     margin-top: 1rem;
     cursor: pointer;
     outline: none;
-    position: absolute;
-    top: 29rem;
-    right: 38.9rem;
     transition: 0.5s;
+    text-align: left;
+    margin-left: 15rem;
 }
 //////////////////////////////////////////////////////////////////
 .btn-portfolio {
@@ -75,13 +75,14 @@
     transition: 0.5s;
 }
 .btn-portfolio:not(:last-child) {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
 }
 //////////////////////////////////////////////////////////////////////
 .subscribe-btn {
-    padding: .9rem 1.5rem .8rem 1.5rem;
+    padding: 1.7rem 1.5rem 1.3rem 1.6rem;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 600;
+    font-size: 1.6rem;
     color: white;
     background-color: red;
     border:none;
@@ -94,9 +95,10 @@
     color: black;
     margin-top: 2rem;
     margin-bottom: 10rem;
-    margin-right: 44rem;
+    margin-right: 60rem;
     border-color: black;
     border-width: .1rem;
+    font-size: 1.5rem;
     outline: none;
     cursor: pointer;
     padding: 1rem 1.5rem; 
@@ -112,10 +114,11 @@
 }
 .btn-block {
     font-family: "Roboto";
-    font-size: 170%;
+    font-size: 2.5rem;
+    font-weight: 300;
     display: block;
     background-color: rgb(27, 27, 27); 
-    padding: 3rem 3rem;
+    padding: 5rem 5rem;
     text-decoration: none;
     color: white;
     transition: 0.5s;
@@ -123,3 +126,10 @@
 .btn-block:hover {
     background-color: red;
 }
+
+
+/////////////////////////// ICONS ON OUR TEAM SECTION /////////////////////////////////
+.our-team-icon {
+    font-size: 1.8rem;
+    letter-spacing: .5rem;
+} 

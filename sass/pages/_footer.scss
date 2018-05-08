@@ -7,12 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    //filter: brightness(70%);
 }
 /* VISIT TEXT */
 .footer-text1 {
     filter: brightness(70%);
-    margin-top: 100px;
+    margin-top: 10rem;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -26,18 +25,18 @@
     font-family: "Roboto";
     font-weight: 400;
     list-style: none;
-    font-size: 130%;
+    font-size: 2.5rem;
 }
 .location-icon {
-    font-size: 180%;
+    font-size: 3rem;
     position: relative;
     float: left;
-    left: 25%;
+    left: 33%;
 }
 /* CONTACT PHONE */
 .footer-text {
     filter: brightness(70%);
-    margin-top: 100px;
+    margin-top: 10rem;
     display: block;
     color: white;
     float: right;
@@ -50,18 +49,18 @@
     font-family: "Roboto";
     font-weight: 400;
     list-style: none;
-    font-size: 130%;
+    font-size: 2.5rem;
 }
 .phone-icon {
-    font-size: 180%;
+    font-size: 3rem;
     position: relative;
     float: left;
-    left: 10%;
+    left: 15%;
 }
 /* EMAIL TEXT*/
 .footer-text2 {
     filter: brightness(70%);
-    margin-top: 100px;
+    margin-top: 10rem;
     display: block;
     float: left;
     color: white;
@@ -74,17 +73,17 @@
     font-family: "Roboto";
     font-weight: 400;
     list-style: none;
-    font-size: 130%;
+    font-size: 2.5rem;
 }
 .mail-icon {
-    font-size: 180%;
+    font-size: 3rem;
     position: relative;
     float: left;
-    left: 15%;
+    left: 25%;
 }
 .social-icons {
     filter: brightness(70%);
-    font-size: 200%;
+    font-size: 3rem;
     color: white;
     padding-top: 15%;
     letter-spacing: 10px;
@@ -105,5 +104,5 @@
 }
 .copy-text {
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
