@@ -11,6 +11,10 @@
 }
 html {
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5% // 16px/16px = 1 * 100 = 100%;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    text-align: center;
+    word-spacing: .1rem;
 }
 body {
     box-sizing: border-box;
