@@ -1,57 +1,38 @@
-/*------------------------------------*\
-        #Project Styles
-\*------------------------------------*/
-/*
-@import "./settings/settings.global";
-@import "./settings/settings.colors";
+////////////////////////// Styles /////////////////////////////////
 
-@import "./tools/tools.mixins";
+@import "settings/base";
+@import "settings/grid";
+@import "settings/container";
 
-@import "./generic/generic.normalize";
-@import "./generic/generic.box-sizing";
-@import "./generic/generic.reset";
-@import "./generic/generic.fonts";
+@import "tools/mixins";
 
-@import "./elements/elements.page";
-@import "./elements/elements.headings";
-@import "./elements/elements.links";
-@import "./elements/elements.images";
-@import "./elements/elements.quotes";
-@import "./elements/elements.typography";
-@import "./elements/elements.table";
+//@import "generic/";
 
-@import "./objects/objects.wrappers";
-@import "./objects/objects.layout";
-@import "./objects/objects.media";
-@import "./objects/objects.tableize";
-@import "./objects/objects.justifize";
-@import "./objects/objects.embedded";
-@import "./objects/objects.icons";
-@import "./objects/objects.flex";
-*/
-@import "pages/header";
-@import "pages/footer";
-@import "pages/home";
+@import "elements/queries";
+@import "elements/typography";
 
+@import "objects/icons";
+
+@import "components/header";
+@import "components/about";
+@import "components/team";
+@import "components/how-we-work";
+@import "components/process";
+@import "components/our-work";
+@import "components/project-name";
+@import "components/portfolio";
+@import "components/working-with";
+@import "components/cards";
+@import "components/newsletter";
+@import "components/contact";
+@import "components/footer";
 @import "components/media";
 @import "components/buttons";
-@import "components/grid";
-@import "components/icons";
-@import "components/cards";
 
-@import "base/base";
-@import "base/typography";
-@import "base/mixins";
-@import "base/queries";
+//@import "trumps/";
 
-/*
-@import "./trumps/trumps.widths";
-@import "./trumps/trumps.spacing";
-@import "./trumps/trumps.type";
-@import "./trumps/trumps.helpers";
-@import "./trumps/trumps.backgrounds";
-@import "./trumps/trumps.colors";
-*/
+
+
 
 
 

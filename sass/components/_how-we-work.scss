@@ -1,0 +1,85 @@
+///////////////////////////////////////////////////////
+/* HOW WE WORK SECTION */
+.section-howwework {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/bg-quote.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.how-we-work {
+    text-align: center;
+
+    &__design-text {
+        font-size: 40px;  
+        color: white;
+        font-weight: 300;
+        margin-top: 250px ;
+        margin-bottom: 10px;
+    }
+
+    &__design-text:after {
+        display: block;
+        height: 1px;
+        background-color: red;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    &__span-design {
+        color: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.how-we-work {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-quote.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &__how-text {
+        font-size: 40px;  
+        color: white;
+        font-weight: 300;
+        margin-bottom: 0;
+
+    }
+    &__how-text:after {
+        display: block;
+        height: 1px;
+        background-color: red;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    &__span-design {
+        color: red;
+    }
+}
+*/

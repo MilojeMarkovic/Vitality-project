@@ -1,110 +1,89 @@
 /////// BUTTON HOVER /////////
 .btn:hover {
     color:white;
-    background: red;
-    border-color: red;
+    background: #EF4035;
+    border-color: #EF4035;
 }
 .btn--1:hover {
     background-color: white;
     border-color: white;
-    color:red;
-}
-/////////////////////////////////////////////////////////////////////////
-.team-btn-right {
-    position: absolute;
-    top: 35%;
-    left: 22.5%;
-}
-.team-btn-left {
-    position: absolute;
-    top: 35%;
-    right: 22.5%;
-}
-.ourteam-btn {
-    font-size: 3.5rem;
-    padding: 1rem 1rem;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.74);
-    background:rgba(142, 30, 30, 0.5);
-    border-color: rgba(142, 30, 30, 0.5);
-    outline: none;
-    transition: 0.5s;
+    color:#EF4035;
 }
 ///////////////////////////////////////////////////////////////
 .btn-text {
     display: inline-block;
-    padding: 1.5rem 1.5rem;
+    padding: 15px 15px;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: white;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 16px;
     cursor: pointer;
-    transition: 0.5s;
-    border-width: .1rem;
+    outline: none;
+    transition: 0.2s;
+    border: 1px solid white;
 }
 //////////////////////////////////////////////////////////////////
 .btn-details {
     display: inline-block;
-    padding: 1.5rem 1.5rem;
+    padding: 15px 15px;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    border-width: .1rem;
+    border: 1px solid white;
     color: white;
     font-weight: 900;
-    font-size: 1.7rem;
-    margin-top: 1rem;
+    font-size: 16px;
+    margin-top: 10px;
     cursor: pointer;
     outline: none;
-    transition: 0.5s;
-    margin-left: 15rem;
+    transition: 0.2s;
 }
 //////////////////////////////////////////////////////////////////
 .btn-portfolio {
     color: black;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
     border-color: black;
     outline: none;
     cursor: pointer;
     transition: 0.5s;
 }
 .btn-portfolio:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: 10px;
 }
 //////////////////////////////////////////////////////////////////////
 .subscribe-btn {
-    padding: 1.7rem 1.5rem 1.3rem 1.6rem;
+    padding: 13px 10px 11px 10px;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 16px;
     color: white;
-    background-color: red;
+    background-color: #EF4035;
     border:none;
     outline: none;
     cursor: pointer; 
-    transition: .5s;  
+    transition: .2s;  
 }
 ////////////////////////////////////////////////////////////////////
 .contact-btn {
     color: black;
-    margin-top: 2rem;
-    margin-bottom: 10rem;
-    margin-right: 60rem;
+    margin-top: 20px;
+    float: left;
+    margin-left: 185px;
     border-color: black;
-    border-width: .1rem;
-    font-size: 1.5rem;
+    border-width: 1px;
+    font-size: 16px;
     outline: none;
     cursor: pointer;
-    padding: 1rem 1.5rem; 
+    padding: 10px 15px; 
     text-transform: uppercase;
     font-weight: 900;
     background-color: transparent;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 ///////////////////////////////////////////////////////////////////////////////
 /* VITAL BUTTON */
@@ -113,17 +92,17 @@
 }
 .btn-block {
     font-family: "Roboto";
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 26px;
+    font-weight: 200;
     display: block;
     background-color: rgb(27, 27, 27); 
-    padding: 5rem 5rem;
+    padding: 50px 0;
     text-decoration: none;
     color: white;
     transition: 0.5s;
 }
 .btn-block:hover {
-    background-color: red;
+    background-color: #EF4035;
 }
 
 

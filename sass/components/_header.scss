@@ -1,0 +1,80 @@
+/* HEADER */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-header.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    text-align: center;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 40px; 
+
+    &__small-bull-logo {
+        height: 46px;
+        display: flex;
+    }
+
+    &__list {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        list-style: none;
+        padding: 10px 10px;
+
+        display: flex;
+    }
+
+}
+.nav-item {
+        text-align: left;
+        margin-right: 30px;
+        
+}
+.center-text {
+
+    &__bull-logo {
+        max-width: 250px;
+        max-height: 250px;
+        margin-top: 185px;
+    }
+
+    &__head-text {
+        color: rgb(255, 255, 255);
+        margin: 0 0;
+    }
+
+    &__head-text::after {
+        display: block;
+        height: 1px;
+        background-color: red;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    &__paragraph-text {
+        color: rgb(255, 255, 255);
+        margin: 0 10px;
+        font-size: 32px;
+        word-spacing: 0;
+    }
+
+    &__button {
+        font-size: 30px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        border-color: transparent;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 10px;       
+    }
+}

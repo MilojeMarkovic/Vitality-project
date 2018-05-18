@@ -1,0 +1,11 @@
+.our-team-section {
+
+    &__fb-icon,
+    &__twit-icon,
+    &__linkd-icon,
+    &__basket-icon {
+        color: rgb(255, 255, 255);
+        padding: 5px 5px;
+        filter: brightness(80%);
+    }
+}

@@ -1,0 +1,42 @@
+//////////////////////////////////////////////////////////////////////////////////////
+/* CONTACT SECTION */
+.section-contact {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contact-us:after {
+    display: block;
+    height: 1px;
+    background-color: red;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.contact-text {
+    margin-bottom: 2rem;
+}
+.contact-name {
+    width: 730px;
+    font-size: 25px;
+    padding: 30px 10px;
+    font-family: "Roboto";
+    font-weight: 300;
+    border: 1px solid rgb(233, 233, 233);
+    outline: none;
+    border-bottom: white;
+    border-right: white;
+    border-left: white;
+}
+.contact-name1 {
+    width: 730px;
+    font-size: 25px;
+    padding: 30px 0 200px 10px;
+    font-family: "Roboto";
+    font-weight: 300;
+    border: 1px solid rgb(233, 233, 233);
+    outline: none;
+    border-right: white;
+    border-left: white;
+}

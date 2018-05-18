@@ -1,0 +1,44 @@
+///////////////////////////////////////////////////////
+/* OUR WORK SECTION */
+.section-work { 
+    background-color: rgb(240, 240, 240);
+}
+.ourwork-head:after {
+    display: block;
+    height: .1rem;
+    background-color: red;
+    content: " ";
+    width: 15rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.ourwork-text {
+    margin-bottom: 8rem;
+}
+
+
+
+
+
+/*.our-work-section {
+
+    &__header {
+        margin-bottom: 0;
+    }
+
+    &__header::after {
+        display: block;
+        height: 1px;
+        background-color: red;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;             
+    }
+
+    &__paragraph {
+        margin-top: 0;
+    }
+}*/

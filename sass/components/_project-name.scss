@@ -1,0 +1,45 @@
+/* WORK PICTURE SECTION */
+.our-work-pic {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
+    background-size: cover;
+    position: relative;
+    height:100vh;
+}
+.ourwork-text {
+    margin-bottom: 100px;
+}
+.right-box {
+    text-align: left;
+}
+.projectname-head {
+    padding-top: 300px;
+    color: white;
+    text-align: left;
+}
+.ourwork-paragraph {
+    color: white;
+    text-align: left;
+}
+.ourwork-paragraph:after {
+    display: block;
+    height: 1px;
+    background-color: red;
+    content: " ";
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.picture-in-macbook {
+    padding-top: 180px;
+    max-width: 90%; 
+}
+
+
+
+
+/*.project {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/portfolio/carousel/bg-1.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}*/

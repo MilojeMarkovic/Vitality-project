@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////
+/* ABOUT SECTION */
+.about-section {
+
+    &__vitality-description:after {
+        display: block;
+        height: 1px;
+        background-color: red;
+        content: " ";
+        width: 150px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    &__icon-big {
+        font-size: 64px;
+        display: block;
+        color: black;
+        text-align: center;
+    }
+
+    &__icon-description-text {
+        margin-top: 10px;
+        margin-bottom: 100px;
+        padding: 0 25px; 
+    }
+}

@@ -11,7 +11,7 @@ footer.footer {
 /* VISIT TEXT */
 .footer-text1 {
     filter: brightness(70%);
-    margin-top: 10rem;
+    margin-top: 100px;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -23,12 +23,12 @@ footer.footer {
 }
 .loc-list {
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 300;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 22px;
 }
 .location-icon {
-    font-size: 3rem;
+    font-size: 24px;
     position: relative;
     float: left;
     left: 33%;
@@ -36,10 +36,11 @@ footer.footer {
 /* CONTACT PHONE */
 .footer-text {
     filter: brightness(70%);
-    margin-top: 10rem;
+    margin-top: 100px;
     display: block;
     color: white;
     float: right;
+    padding-right: 50px;
 }
 .calls {
     padding-bottom: 5px;
@@ -47,12 +48,12 @@ footer.footer {
 }
 .phone-list {
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 300;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 22px;
 }
 .phone-icon {
-    font-size: 3rem;
+    font-size: 24px;
     position: relative;
     float: left;
     left: 15%;
@@ -60,10 +61,11 @@ footer.footer {
 /* EMAIL TEXT*/
 .footer-text2 {
     filter: brightness(70%);
-    margin-top: 10rem;
+    margin-top: 100px;
     display: block;
     float: left;
     color: white;
+    padding-left: 50px;
 }
 .mails {
     padding-bottom: 5px;
@@ -71,22 +73,23 @@ footer.footer {
 }
 .mail-list {
     font-family: "Roboto";
-    font-weight: 400;
+    font-weight: 300;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 22px;
 }
 .mail-icon {
-    font-size: 3rem;
+    font-size: 24px;
     position: relative;
     float: left;
-    left: 25%;
+    left: 20%;
 }
 .social-icons {
     filter: brightness(70%);
-    font-size: 3rem;
+    font-size: 30px;
     color: white;
     padding-top: 15%;
     letter-spacing: 10px;
+    margin-bottom: 100px;
 }
 .fb-icon:hover {
     color: blue;
@@ -96,13 +99,4 @@ footer.footer {
 }
 .linkd-icon:hover {
     color: red;
-}
-.copy-rights {
-    filter: brightness(70%);
-    margin-top: 90px;
-    font-size: 90%; 
-}
-.copy-text {
-    color: white;
-    margin-bottom: 3rem;
 }

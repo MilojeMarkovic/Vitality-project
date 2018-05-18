@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////
+/* PORTFOLIO SECTION */
+.section-portfolio {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.portfolio-head:after {
+    display: block;
+    height: 1px;
+    background-color: red;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.grid-pic {
+    max-width: 345px;
+    margin: 8px 8px;
+}

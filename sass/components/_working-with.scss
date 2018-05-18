@@ -1,0 +1,64 @@
+////////////////////////////////////////////////////////////
+/* EXPIRIENCE SECTION */
+.section-expirience {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+.expirience-head { 
+    margin-top: 100px;
+    color: rgb(33, 37 , 41);
+ }
+.expirience-text {
+    margin-bottom: 20px;
+}
+ .expirience-head:after {
+    display: block;
+    height: 1px;
+    background-color: red;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name {
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    float: right;
+    color: rgb(33, 37 , 41);
+}
+.small {
+    font-size: 13px;
+}
+.stars {
+    margin-bottom: 100px;
+    color:gold;
+}
+.rounded-circle {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+.arrow-right {
+    font-size: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    background: rgba(255, 0, 0, 0.3);
+    border:none;
+    outline: none;
+    float: right;
+    transition: .2s;
+}
+.arrow-left {
+    font-size: 40px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    background: rgba(255, 0, 0, 0.3);
+    border:none;
+    outline: none;
+    float: left;
+    transition: .2s;
+}
