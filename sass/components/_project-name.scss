@@ -2,37 +2,38 @@
 .our-work-pic {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
     background-size: cover;
-    position: relative;
     height:100vh;
+
+    &__right-box {
+        text-align: left;
+    }
+    &__projectname-head {
+        padding-top: 300px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+    &__ourwork-paragraph {
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+    &__ourwork-paragraph:after {
+        display: block;
+        height: 1px;
+        background-color: rgb(239, 64, 53);
+        content: " ";
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &__picture-in-macbook {
+        padding-top: 180px;
+        max-width: 90%; 
+    }
 }
 .ourwork-text {
     margin-bottom: 100px;
 }
-.right-box {
-    text-align: left;
-}
-.projectname-head {
-    padding-top: 300px;
-    color: white;
-    text-align: left;
-}
-.ourwork-paragraph {
-    color: white;
-    text-align: left;
-}
-.ourwork-paragraph:after {
-    display: block;
-    height: 1px;
-    background-color: red;
-    content: " ";
-    width: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.picture-in-macbook {
-    padding-top: 180px;
-    max-width: 90%; 
-}
+
 
 
 

@@ -8,7 +8,7 @@
     &__process-head::after {
         display: block;
         height: 1px;
-        background-color: red;
+        background-color: #EF4035;
         content: " ";
         width: 150px;
         margin: 0 auto;
@@ -16,23 +16,25 @@
         margin-bottom: 10px;             
     }
 }
+.our-process-rows {
 
-.plan-icon,
-.create-icon,
-.launch-icon {
-    font-size: 69px;
-    float: left;
-    padding: 0 35px;
-    margin-bottom: 100px;
-}
-.process-text,
-.process-text1,
-.process-text2 {
-    text-align: left;
-    padding:  10px 25px;
-    margin-top: 10px;
-}
+    &__process-text {
+        text-align: left;
+        padding:  10px 25px;
+        margin-top: 10px;
+    }
 
+    &__plan-icon,
+    &__create-icon,
+    &__launch-icon {
+        color: rgb(33, 37 , 41); 
+        font-size: 69px;
+        float: left;
+        padding: 0 35px;
+        margin-bottom: 100px;
+    }
+
+}
 .plans,
 .create,
 .launch {

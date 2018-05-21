@@ -13,23 +13,22 @@
 
     &__design-text {
         font-size: 40px;  
-        color: white;
+        color: rgb(255, 255, 255);
         font-weight: 300;
         margin-top: 250px ;
         margin-bottom: 10px;
     }
-
     &__design-text:after {
         display: block;
         height: 1px;
-        background-color: red;
+        background-color: #EF4035;
         content: " ";
         width: 150px;
         margin: 0 auto;
         margin-top: 10px;
     }
     &__span-design {
-        color: red;
+        color: #EF4035;
     }
 }
 

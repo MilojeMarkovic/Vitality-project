@@ -9,7 +9,7 @@
   "author": "Miloje",
   "license": "ISC",
   "dependencies": {
-    "npm": "^5.8.0"
+    "npm": "^5.10.0"
   },
   "devDependencies": {
     "node-sass": "^4.8.3"
