@@ -2,10 +2,11 @@
 header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-header.jpg);
-    background-size: cover;
+    background-image: url(../img/backgrounds/bg-header.jpg);
+    background-attachment: fixed;
     background-position: top;
-    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
 }
 .navigation-bar {
@@ -51,7 +52,7 @@ header {
     &__head-text::after {
         display: block;
         height: 1px;
-        background-color: red;
+        background-color: #EF4035;
         content: " ";
         width: 150px;
         margin: 0 auto;

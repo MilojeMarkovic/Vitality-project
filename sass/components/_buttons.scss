@@ -12,14 +12,14 @@
 ///////////////////////////////////////////////////////////////
 .btn-text {
     display: inline-block;
-    padding: 15px 15px;
+    padding: 14px 20px;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: white;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     outline: none;
     transition: 0.2s;
@@ -47,6 +47,7 @@
     color: black;
     margin-top: 10px;
     margin-bottom: 20px;
+    //font-size: 14px;
     border-color: black;
     outline: none;
     cursor: pointer;
@@ -108,6 +109,6 @@
 
 /////////////////////////// ICONS ON OUR TEAM SECTION /////////////////////////////////
 .our-team-icon {
-    font-size: 1.8rem;
-    letter-spacing: .5rem;
+    font-size: 18px;
+    letter-spacing: 5px;
 } 

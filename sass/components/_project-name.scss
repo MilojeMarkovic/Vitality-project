@@ -1,20 +1,17 @@
 /* WORK PICTURE SECTION */
 .our-work-pic {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
+    height: 100vh;
+    background-image: url(../img/portfolio/carousel/bg-1.jpg);
     background-size: cover;
-    height:100vh;
 
-    &__right-box {
-        text-align: left;
-    }
     &__projectname-head {
         padding-top: 300px;
         color: rgb(255, 255, 255);
-        text-align: left;
+        float: right;
     }
     &__ourwork-paragraph {
         color: rgb(255, 255, 255);
-        text-align: left;
+        float: right;
     }
     &__ourwork-paragraph:after {
         display: block;
@@ -26,21 +23,12 @@
         margin-bottom: 10px;
     }
     &__picture-in-macbook {
+        float: left;
         padding-top: 180px;
-        max-width: 90%; 
+        max-width: 50%; 
     }
 }
+
 .ourwork-text {
     margin-bottom: 100px;
 }
-
-
-
-
-
-/*.project {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/portfolio/carousel/bg-1.jpg);
-    background-size: cover;
-    background-position: top;
-    text-align: center;
-}*/

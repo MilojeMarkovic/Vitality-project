@@ -495,22 +495,6 @@ body {
   margin-right: auto;
   margin-left: auto; }
 
-.our-work-pic-container {
-  max-width: 940px;
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 40px;
-  margin-right: auto;
-  margin-left: auto; }
-
-.our-work-pic-mini-container {
-  max-width: 640px;
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 40px;
-  margin-right: auto;
-  margin-left: auto; }
-
 .team-container {
   max-width: 1080px;
   width: 100%;
@@ -578,10 +562,11 @@ grey-color : rgba(255, 255, 255, 0.74);
 header {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-header.jpg);
-  background-size: cover;
+  background-image: url(../img/backgrounds/bg-header.jpg);
+  background-attachment: fixed;
   background-position: top;
-  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center; }
 
 .navigation-bar {
@@ -616,7 +601,7 @@ header {
 .center-text__head-text::after {
   display: block;
   height: 1px;
-  background-color: red;
+  background-color: #EF4035;
   content: " ";
   width: 150px;
   margin: 0 auto;
@@ -818,7 +803,7 @@ header {
 /* HOW WE WORK SECTION */
 .section-howwework {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/bg-quote.jpg);
+  background-image: url(../img/backgrounds/bg-quote.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -948,18 +933,16 @@ header {
 }*/
 /* WORK PICTURE SECTION */
 .our-work-pic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/portfolio/carousel/bg-1.jpg);
-  background-size: cover;
-  height: 100vh; }
-  .our-work-pic__right-box {
-    text-align: left; }
+  height: 100vh;
+  background-image: url(../img/portfolio/carousel/bg-1.jpg);
+  background-size: cover; }
   .our-work-pic__projectname-head {
     padding-top: 300px;
     color: white;
-    text-align: left; }
+    float: right; }
   .our-work-pic__ourwork-paragraph {
     color: white;
-    text-align: left; }
+    float: right; }
   .our-work-pic__ourwork-paragraph:after {
     display: block;
     height: 1px;
@@ -969,18 +952,13 @@ header {
     margin-top: 10px;
     margin-bottom: 10px; }
   .our-work-pic__picture-in-macbook {
+    float: left;
     padding-top: 180px;
-    max-width: 90%; }
+    max-width: 50%; }
 
 .ourwork-text {
   margin-bottom: 100px; }
 
-/*.project {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/portfolio/carousel/bg-1.jpg);
-    background-size: cover;
-    background-position: top;
-    text-align: center;
-}*/
 /* PORTFOLIO SECTION */
 .section-portfolio {
   text-align: center;
@@ -1063,7 +1041,7 @@ header {
 
 /* PRICING SECTION */
 .section-pricing {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/backgrounds/bg-pricing.jpg);
+  background-image: url(../img/backgrounds/bg-pricing.jpg);
   background-size: cover;
   /* CARD1 */
   /* CARD - 2 */
@@ -1191,7 +1169,7 @@ header {
     height: 1px;
     background-color: #EF4035;
     content: " ";
-    width: 100px;
+    width: 150px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -1245,7 +1223,8 @@ header {
 
 /* FOOTER */
 footer.footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/backgrounds/bg-footer.jpg);
+  background-image: url(../img/backgrounds/bg-footer.jpg);
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1320,9 +1299,9 @@ footer.footer {
 
 .social-icons {
   filter: brightness(70%);
-  font-size: 30px;
+  font-size: 35px;
   color: white;
-  padding-top: 15%;
+  padding-top: 30%;
   letter-spacing: 10px;
   margin-bottom: 100px; }
   .social-icons__fb-icon:hover {
@@ -1344,14 +1323,14 @@ footer.footer {
 
 .btn-text {
   display: inline-block;
-  padding: 15px 15px;
+  padding: 14px 20px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   color: white;
   font-weight: 900;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   outline: none;
   transition: 0.2s;
@@ -1432,5 +1411,5 @@ footer.footer {
   background-color: #EF4035; }
 
 .our-team-icon {
-  font-size: 1.8rem;
-  letter-spacing: .5rem; }
+  font-size: 18px;
+  letter-spacing: 5px; }
