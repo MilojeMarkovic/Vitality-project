@@ -1,12 +1,12 @@
 /////// BUTTON HOVER /////////
 .btn:hover {
-    color:white;
+    color:rgb(255, 255, 255);
     background: #EF4035;
     border-color: #EF4035;
 }
 .btn--1:hover {
-    background-color: white;
-    border-color: white;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
     color:#EF4035;
 }
 ///////////////////////////////////////////////////////////////
@@ -17,38 +17,21 @@
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 900;
     font-size: 14px;
     cursor: pointer;
     outline: none;
     transition: 0.2s;
-    border: 1px solid white;
-}
-//////////////////////////////////////////////////////////////////
-.btn-details {
-    display: inline-block;
-    padding: 15px 15px;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: transparent;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-    border: 1px solid white;
-    color: white;
-    font-weight: 900;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer;
-    outline: none;
-    transition: 0.2s;
+    border: 1px solid rgb(255, 255, 255);
 }
 //////////////////////////////////////////////////////////////////
 .btn-portfolio {
-    color: black;
+    color: rgb(33, 37 , 41);
     margin-top: 10px;
     margin-bottom: 20px;
     //font-size: 14px;
-    border-color: black;
+    border-color: rgb(33, 37 , 41);
     outline: none;
     cursor: pointer;
     transition: 0.5s;
@@ -62,7 +45,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: #EF4035;
     border:none;
     outline: none;
@@ -71,11 +54,11 @@
 }
 ////////////////////////////////////////////////////////////////////
 .contact-btn {
-    color: black;
+    color: rgb(33, 37 , 41);
     margin-top: 20px;
     float: left;
     margin-left: 185px;
-    border-color: black;
+    border-color: rgb(33, 37 , 41);
     border-width: 1px;
     font-size: 16px;
     outline: none;
@@ -99,7 +82,7 @@
     background-color: rgb(27, 27, 27); 
     padding: 50px 0;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
 .btn-block:hover {

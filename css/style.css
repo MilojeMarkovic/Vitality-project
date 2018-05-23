@@ -514,16 +514,6 @@ h2 {
   margin-top: 100px;
   color: #212529; }
 
-/*h2::after {
-    display: block;
-    height: 1px;
-    background-color: red;
-    content: " ";
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;    
-}*/
 h3 {
   font-size: 28px;
   text-transform: uppercase;
@@ -531,16 +521,14 @@ h3 {
 
 h4 {
   font-size: 24px;
-  text-transform: uppercase;
-  color: white; }
+  text-transform: uppercase; }
 
 h1,
 h2,
 h3,
 h4 {
   font-family: "Raleway",sans-serif;
-  font-weight: 900;
-  text-align: center; }
+  font-weight: 900; }
 
 p {
   font-size: 18px;
@@ -896,54 +884,38 @@ header {
 /* OUR WORK SECTION */
 .section-work {
   background-color: #f0f0f0; }
+  .section-work__ourwork-head:after {
+    display: block;
+    height: 1px;
+    background-color: #EF4035;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .section-work__ourwork-text {
+    margin-bottom: 100px; }
 
-.ourwork-head:after {
-  display: block;
-  height: 1px;
-  background-color: red;
-  content: " ";
-  width: 150px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.ourwork-text {
-  margin-bottom: 100px; }
-
-/*.our-work-section {
-
-    &__header {
-        margin-bottom: 0;
-    }
-
-    &__header::after {
-        display: block;
-        height: 1px;
-        background-color: red;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;             
-    }
-
-    &__paragraph {
-        margin-top: 0;
-    }
-}*/
 /* WORK PICTURE SECTION */
 .our-work-pic {
   height: 100vh;
   background-image: url(../img/portfolio/carousel/bg-1.jpg);
   background-size: cover; }
-  .our-work-pic__projectname-head {
-    padding-top: 300px;
-    color: white;
-    float: right; }
-  .our-work-pic__ourwork-paragraph {
-    color: white;
-    float: right; }
-  .our-work-pic__ourwork-paragraph:after {
+  .our-work-pic__picture-in-macbook {
+    float: left;
+    padding-top: 180px;
+    padding-left: 50px;
+    max-width: 110%; }
+
+.text-container {
+  text-align: left;
+  padding-top: 300px;
+  padding-left: 150px; }
+  .text-container__projectname-head {
+    color: white; }
+  .text-container__ourwork-paragraph {
+    color: white; }
+  .text-container__ourwork-paragraph:after {
     display: block;
     height: 1px;
     background-color: #ef4035;
@@ -951,10 +923,21 @@ header {
     width: 150px;
     margin-top: 10px;
     margin-bottom: 10px; }
-  .our-work-pic__picture-in-macbook {
-    float: left;
-    padding-top: 180px;
-    max-width: 50%; }
+  .text-container__btn-details {
+    display: inline-block;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid white;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s; }
 
 .ourwork-text {
   margin-bottom: 100px; }
@@ -1224,7 +1207,6 @@ header {
 /* FOOTER */
 footer.footer {
   background-image: url(../img/backgrounds/bg-footer.jpg);
-  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1336,27 +1318,11 @@ footer.footer {
   transition: 0.2s;
   border: 1px solid white; }
 
-.btn-details {
-  display: inline-block;
-  padding: 15px 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-  background-color: transparent;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-  border: 1px solid white;
-  color: white;
-  font-weight: 900;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-  outline: none;
-  transition: 0.2s; }
-
 .btn-portfolio {
-  color: black;
+  color: #212529;
   margin-top: 10px;
   margin-bottom: 20px;
-  border-color: black;
+  border-color: #212529;
   outline: none;
   cursor: pointer;
   transition: 0.5s; }
@@ -1377,11 +1343,11 @@ footer.footer {
   transition: .2s; }
 
 .contact-btn {
-  color: black;
+  color: #212529;
   margin-top: 20px;
   float: left;
   margin-left: 185px;
-  border-color: black;
+  border-color: #212529;
   border-width: 1px;
   font-size: 16px;
   outline: none;

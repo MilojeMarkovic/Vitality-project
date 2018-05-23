@@ -2,43 +2,19 @@
 /* OUR WORK SECTION */
 .section-work { 
     background-color: rgb(240, 240, 240);
-}
-.ourwork-head:after {
-    display: block;
-    height: 1px;
-    background-color: red;
-    content: " ";
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.ourwork-text {
-    margin-bottom: 100px;
-}
 
-
-
-
-
-/*.our-work-section {
-
-    &__header {
-        margin-bottom: 0;
-    }
-
-    &__header::after {
+    &__ourwork-head:after {
         display: block;
         height: 1px;
-        background-color: red;
+        background-color: #EF4035;
         content: " ";
         width: 150px;
         margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 10px;             
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+    &__ourwork-text {
+        margin-bottom: 100px;
+    }
+}
 
-    &__paragraph {
-        margin-top: 0;
-    }
-}*/

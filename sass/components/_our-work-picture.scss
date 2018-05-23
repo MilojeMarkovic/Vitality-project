@@ -1,0 +1,53 @@
+/* WORK PICTURE SECTION */
+.our-work-pic {
+    height: 100vh;
+    background-image: url(../img/portfolio/carousel/bg-1.jpg);
+    background-size: cover;
+    
+    &__picture-in-macbook {
+        float: left;
+        padding-top: 180px;
+        padding-left: 50px;
+        max-width: 110%; 
+    }
+}
+.text-container {
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 150px;
+
+    &__projectname-head {
+        color: rgb(255, 255, 255);
+    }
+    &__ourwork-paragraph {
+        color: rgb(255, 255, 255);
+    }
+    &__ourwork-paragraph:after {
+        display: block;
+        height: 1px;
+        background-color: rgb(239, 64, 53);
+        content: " ";
+        width: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &__btn-details {
+        display: inline-block;
+        padding: 15px 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: transparent;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+        border: 1px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s;
+    } 
+}
+.ourwork-text {
+    margin-bottom: 100px;
+}

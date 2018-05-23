@@ -8,16 +8,6 @@ h2 {
     margin-top: 100px;
     color: rgb(33, 37 , 41);
 }
-/*h2::after {
-    display: block;
-    height: 1px;
-    background-color: red;
-    content: " ";
-    width: 150px;
-    margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;    
-}*/
 h3 {
     font-size: 28px;
     text-transform: uppercase;
@@ -26,7 +16,7 @@ h3 {
 h4 {
     font-size: 24px;
     text-transform: uppercase;
-    color: white;
+    //color: white;
 }
 h1,
 h2,
@@ -34,7 +24,7 @@ h3,
 h4 {
     font-family: "Raleway",sans-serif;
     font-weight: 900;
-    text-align: center;
+    //text-align: center;
     
 }
 p {
