@@ -2,12 +2,10 @@
 /* EXPIRIENCE SECTION */
 .section-expirience {
     background-color: rgb(240, 240, 240);
-    text-align: center;
 }
 .vital-text {
 
     &__expirience-head { 
-        margin-top: 100px;
         color: rgb(33, 37 , 41);
     }
     &__expirience-head:after {
@@ -37,7 +35,6 @@
         font-size: 13px;
     }
     &__stars {
-        margin-bottom: 100px;
         color:gold;
     }
     &__rounded-circle {

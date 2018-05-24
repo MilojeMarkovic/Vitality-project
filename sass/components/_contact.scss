@@ -1,8 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////////
 /* CONTACT SECTION */
 .section-contact {
-    text-align: center;
-    margin-bottom: 100px;
 
     &__contact-us:after {
         display: block;
@@ -29,7 +27,7 @@
         border-right: white;
         border-left: white;
     }
-    &__contact-name1 {
+    &__message-textarea {
         width: 730px;
         font-size: 25px;
         padding: 30px 0 200px 10px;
