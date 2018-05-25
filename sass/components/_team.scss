@@ -33,33 +33,33 @@
         &__emp-text {
             position: absolute;
             z-index: 2;
-            top: 28%;
-            left: 5%;
+            top: 31%;
+            left: 6%;
         }
     
         &__emp-text--1 {
             position: absolute;
             z-index: 2;
-            top: 28%;
+            top: 31%;
             left: 40%;
         }
     
         &__emp-text--2 {
             position: absolute;
             z-index: 2;
-            top: 28%;
-            right: 5%;
+            top: 31%;
+            right: 6%;
         }
     
         &__employee-photo {
-            width: 340px;
-            height: 340px;
-            filter: brightness(70%);
+            width: 339px;
+            height: 341px;
+            filter: brightness(60%);
         }
     
         &__emp-head,
         &__team-paragraph, {
-            color: rgb(255, 255, 255);
+            color: rgba(255, 255, 255, 0.7);
             margin: 5px 0;
             filter: brightness(80%);     
         }
@@ -90,6 +90,6 @@
     }
 }
 .middle-photo {
-    margin-left: 15px;
-    margin-right: 15px; 
+    margin-left: 25px;
+    margin-right: 25px; 
 }

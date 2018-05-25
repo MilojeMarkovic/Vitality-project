@@ -2,6 +2,9 @@
 /* PRICING SECTION */
 .section-pricing {
     background-image: url(../img/backgrounds/bg-pricing.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 
     /* CARD1 */
@@ -111,14 +114,14 @@
         color: rgb(34, 34, 34);
     }
     &__dolar {
-        font-size: 50%;
+        font-size: 60%;
         padding: 10px 4px;
         position: relative;
         bottom: 15px;
         left: 15px;
         font-weight: 900;
     }
-    &__month { font-size: 40%; }
+    &__month { font-size: 16px; }
     
     &__number { font-weight: 900; }
 }

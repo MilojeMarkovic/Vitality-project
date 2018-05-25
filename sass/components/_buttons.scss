@@ -12,14 +12,15 @@
 ///////////////////////////////////////////////////////////////
 .btn-text {
     display: inline-block;
-    padding: 14px 20px;
+    padding: 13px 12px 13px 12px;
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: rgb(255, 255, 255);
     font-weight: 900;
-    font-size: 14px;
+    line-height: 24px;
+    font-size: 16px;
     cursor: pointer;
     outline: none;
     transition: 0.2s;
@@ -28,22 +29,29 @@
 //////////////////////////////////////////////////////////////////
 .btn-portfolio {
     color: rgb(33, 37 , 41);
-    margin-top: 10px;
-    margin-bottom: 20px;
-    //font-size: 14px;
+    padding: 12px 21px 12px 21px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    line-height: 21px;
+    font-weight: 900;
+    font-size: 14px;
     border-color: rgb(33, 37 , 41);
     outline: none;
     cursor: pointer;
     transition: 0.5s;
+    font-family: "Roboto";
 }
 .btn-portfolio:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 18px;
 }
 //////////////////////////////////////////////////////////////////////
 .subscribe-btn {
-    padding: 13px 10px 11px 10px;
+    padding: 15px 18px 11px 18px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 900;
+    line-height: 24px;
+    font-family: "Roboto";
+    letter-spacing: 1px;
     font-size: 16px;
     color: rgb(255, 255, 255);
     background-color: #EF4035;

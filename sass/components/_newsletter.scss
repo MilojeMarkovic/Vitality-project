@@ -15,17 +15,18 @@
         content: " ";
         width: 150px;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 20px;
     }
     &__form-control {
-        width: 30%;
+        width: 31%;
         border: none;
-        padding: 10px 15px;
-        color: rgb(34, 34, 34); 
+        padding: 10px 16px 10px 16px;
+        color: rgb(73, 80, 87); 
         font-family: "Roboto";
-        font-weight: 300;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
         outline: none;
     }
 }

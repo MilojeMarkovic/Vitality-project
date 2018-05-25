@@ -504,16 +504,22 @@ body {
   margin-left: auto; }
 
 .team-container {
-  max-width: 1080px;
+  max-width: 1079px;
   width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
   margin-right: auto;
   margin-left: auto; }
 
 .section-paddings {
   padding-top: 100px;
   padding-bottom: 100px; }
+
+.working-with-container {
+  max-width: 890px;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto; }
 
 /*@import "elements/queries";*/
 h1 {
@@ -590,7 +596,7 @@ header {
   padding: 15px 15px; }
 
 .center-text {
-  padding-top: 180px; }
+  padding-top: 185px; }
   .center-text__bull-logo {
     max-width: 250px;
     max-height: 250px; }
@@ -604,7 +610,7 @@ header {
     content: " ";
     width: 150px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 15px; }
   .center-text__paragraph-text {
     color: white;
@@ -626,6 +632,9 @@ header {
     border-radius: 50%; }
 
 /* ABOUT SECTION */
+.about-section__vitality-description {
+  margin-top: 10px; }
+
 .about-section__vitality-description:after {
   display: block;
   height: 1px;
@@ -667,24 +676,24 @@ header {
   .ourteam-section .our-team-section__emp-text {
     position: absolute;
     z-index: 2;
-    top: 28%;
-    left: 5%; }
+    top: 31%;
+    left: 6%; }
   .ourteam-section .our-team-section__emp-text--1 {
     position: absolute;
     z-index: 2;
-    top: 28%;
+    top: 31%;
     left: 40%; }
   .ourteam-section .our-team-section__emp-text--2 {
     position: absolute;
     z-index: 2;
-    top: 28%;
-    right: 5%; }
+    top: 31%;
+    right: 6%; }
   .ourteam-section .our-team-section__employee-photo {
-    width: 340px;
-    height: 340px;
-    filter: brightness(70%); }
+    width: 339px;
+    height: 341px;
+    filter: brightness(60%); }
   .ourteam-section .our-team-section__emp-head, .ourteam-section .our-team-section__team-paragraph {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     margin: 5px 0;
     filter: brightness(80%); }
   .ourteam-section .our-team-section__team-btn-right {
@@ -708,8 +717,8 @@ header {
     background-color: #EF4035; }
 
 .middle-photo {
-  margin-left: 15px;
-  margin-right: 15px; }
+  margin-left: 25px;
+  margin-right: 25px; }
 
 /* HOW WE WORK SECTION */
 .section-howwework {
@@ -735,7 +744,8 @@ header {
     content: " ";
     width: 150px;
     margin: 0 auto;
-    margin-top: 10px; }
+    margin-top: 15px;
+    margin-bottom: 15px; }
   .how-we-work__span-design {
     color: #EF4035; }
 
@@ -748,7 +758,7 @@ header {
   width: 150px;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
 
 .our-process-rows__process-text {
   text-align: left;
@@ -789,16 +799,16 @@ header {
   height: 100vh;
   background-image: url(../img/portfolio/carousel/bg-1.jpg);
   background-size: cover; }
-  .our-work-pic__picture-in-macbook {
+  .our-work-pic__macbook-picture {
     float: left;
-    padding-top: 80px;
-    padding-left: 50px;
-    max-width: 110%; }
+    padding-top: 60px;
+    padding-left: 70px;
+    max-width: 114%; }
 
 .text-container {
   text-align: left;
-  padding-top: 300px;
-  padding-left: 150px; }
+  padding-top: 275px;
+  padding-left: 155px; }
   .text-container__projectname-head {
     color: white; }
   .text-container__ourwork-paragraph {
@@ -809,8 +819,8 @@ header {
     background-color: #ef4035;
     content: " ";
     width: 150px;
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .text-container__btn-details {
     display: inline-block;
     padding: 15px 15px;
@@ -822,7 +832,6 @@ header {
     color: white;
     font-weight: 900;
     font-size: 16px;
-    margin-top: 10px;
     cursor: pointer;
     outline: none;
     transition: 0.2s; }
@@ -856,33 +865,38 @@ header {
   content: " ";
   width: 150px;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 .vital-text__expirience-text {
   margin-bottom: 20px; }
 
 .testimonials__name {
-  padding-left: 10px;
+  padding-right: 5px;
   margin-top: 10px;
   font-size: 16px;
   float: right;
   color: #212529; }
 
 .testimonials__small {
-  font-size: 13px; }
+  font-size: 13px;
+  float: right; }
 
 .testimonials__stars {
-  color: gold; }
+  color: gold;
+  float: right;
+  padding-right: 30px; }
 
 .testimonials__rounded-circle {
-  width: 80px;
+  width: 70px;
   border-radius: 50%;
   float: left; }
 
 .arrowheads__arrow-right {
   font-size: 40px;
-  padding: 10px 10px;
+  padding: 3px 10px;
+  line-height: 50px;
+  height: 60px;
   cursor: pointer;
   color: white;
   background: rgba(255, 0, 0, 0.3);
@@ -893,7 +907,9 @@ header {
 
 .arrowheads__arrow-left {
   font-size: 40px;
-  padding: 10px 10px;
+  padding: 3px 10px;
+  line-height: 50px;
+  height: 60px;
   cursor: pointer;
   color: white;
   background: rgba(255, 0, 0, 0.3);
@@ -905,6 +921,9 @@ header {
 /* PRICING SECTION */
 .section-pricing {
   background-image: url(../img/backgrounds/bg-pricing.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   /* CARD1 */
   /* CARD - 2 */
@@ -1005,7 +1024,7 @@ header {
   color: #222222; }
 
 .cardsettings__dolar {
-  font-size: 50%;
+  font-size: 60%;
   padding: 10px 4px;
   position: relative;
   bottom: 15px;
@@ -1013,7 +1032,7 @@ header {
   font-weight: 900; }
 
 .cardsettings__month {
-  font-size: 40%; }
+  font-size: 16px; }
 
 .cardsettings__number {
   font-weight: 900; }
@@ -1032,16 +1051,17 @@ header {
     content: " ";
     width: 150px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 20px; }
   .newsletter__form-control {
-    width: 30%;
+    width: 31%;
     border: none;
-    padding: 10px 15px;
-    color: #222222;
+    padding: 10px 16px 10px 16px;
+    color: #495057;
     font-family: "Roboto";
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
     outline: none; }
 
 /* CONTACT SECTION */
@@ -1182,14 +1202,15 @@ footer.footer {
 
 .btn-text {
   display: inline-block;
-  padding: 14px 20px;
+  padding: 13px 12px 13px 12px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   color: white;
   font-weight: 900;
-  font-size: 14px;
+  line-height: 24px;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
   transition: 0.2s;
@@ -1197,20 +1218,28 @@ footer.footer {
 
 .btn-portfolio {
   color: #212529;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding: 12px 21px 12px 21px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  line-height: 21px;
+  font-weight: 900;
+  font-size: 14px;
   border-color: #212529;
   outline: none;
   cursor: pointer;
-  transition: 0.5s; }
+  transition: 0.5s;
+  font-family: "Roboto"; }
 
 .btn-portfolio:not(:last-child) {
-  margin-right: 10px; }
+  margin-right: 18px; }
 
 .subscribe-btn {
-  padding: 13px 10px 11px 10px;
+  padding: 15px 18px 11px 18px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
+  line-height: 24px;
+  font-family: "Roboto";
+  letter-spacing: 1px;
   font-size: 16px;
   color: white;
   background-color: #EF4035;

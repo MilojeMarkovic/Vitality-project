@@ -2,6 +2,10 @@
 /* ABOUT SECTION */
 .about-section {
 
+    &__vitality-description {
+        margin-top: 10px;
+    }
+
     &__vitality-description:after {
         display: block;
         height: 1px;
