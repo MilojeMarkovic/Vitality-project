@@ -3,6 +3,8 @@
     height: 100vh;
     background-image: url(../img/portfolio/carousel/bg-1.jpg);
     background-size: cover;
+    position: relative;
+
 
     &__macbook-picture {
         //z-index: 100;
@@ -13,6 +15,7 @@
     }
 
 }
+
 .text-container {
     text-align: left;
     padding-top: 275px;

@@ -589,6 +589,8 @@ header {
     color: white;
     list-style: none;
     display: flex; }
+  .navigation-bar__menu-settings {
+    display: none; }
 
 .nav-item {
   text-align: left;
@@ -628,8 +630,7 @@ header {
     color: white;
     border-color: transparent;
     outline: none;
-    cursor: pointer;
-    border-radius: 50%; }
+    cursor: pointer; }
 
 /* ABOUT SECTION */
 .about-section__vitality-description {
@@ -798,7 +799,8 @@ header {
 .our-work-pic {
   height: 100vh;
   background-image: url(../img/portfolio/carousel/bg-1.jpg);
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   .our-work-pic__macbook-picture {
     float: left;
     padding-top: 60px;
