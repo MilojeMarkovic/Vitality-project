@@ -60,6 +60,7 @@
         border:none;
         outline: none;
         float: right;
+        -webkit-transition: .2s;
         transition: .2s;
     }
     &__arrow-left {
@@ -73,6 +74,7 @@
         border:none;
         outline: none;
         float: left;
+        -webkit-transition: .2s;
         transition: .2s;
     }
 }

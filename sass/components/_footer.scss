@@ -10,7 +10,8 @@ footer.footer {
 }
 /* CONTACT PHONE */
 .footer-text {
-    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
     margin-top: 100px;
     display: block;
     color: rgb(255, 255, 255);
@@ -36,7 +37,8 @@ footer.footer {
 }
 /* VISIT TEXT */
 .footer-text1 {
-    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
     margin-top: 100px;
     position: relative;
     display: inline-block;
@@ -62,7 +64,8 @@ footer.footer {
 }
 /* EMAIL TEXT*/
 .footer-text2 {
-    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
     margin-top: 100px;
     display: block;
     float: left;
@@ -87,7 +90,8 @@ footer.footer {
     }
 }
 .social-icons {
-    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+            filter: brightness(70%);
     font-size: 35px;
     color: rgb(255, 255, 255);
     padding-top: 30%;

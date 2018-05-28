@@ -16,6 +16,7 @@
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     color: rgb(255, 255, 255);
     font-weight: 900;
@@ -23,6 +24,7 @@
     font-size: 16px;
     cursor: pointer;
     outline: none;
+    -webkit-transition: 0.2s;
     transition: 0.2s;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -38,6 +40,7 @@
     border-color: rgb(33, 37 , 41);
     outline: none;
     cursor: pointer;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Roboto";
 }
@@ -58,6 +61,7 @@
     border:none;
     outline: none;
     cursor: pointer; 
+    -webkit-transition: .2s; 
     transition: .2s;  
 }
 ////////////////////////////////////////////////////////////////////
@@ -75,6 +79,7 @@
     text-transform: uppercase;
     font-weight: 900;
     background-color: transparent;
+    -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 ///////////////////////////////////////////////////////////////////////////////
@@ -91,6 +96,7 @@
     padding: 50px 0;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .btn-block:hover {

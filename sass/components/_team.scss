@@ -54,14 +54,16 @@
         &__employee-photo {
             width: 339px;
             height: 341px;
-            filter: brightness(60%);
+            -webkit-filter: brightness(60%);
+                    filter: brightness(60%);
         }
     
         &__emp-head,
         &__team-paragraph, {
             color: rgba(255, 255, 255, 0.7);
             margin: 5px 0;
-            filter: brightness(80%);     
+            -webkit-filter: brightness(80%);
+                    filter: brightness(80%);     
         }
     
         &__team-btn-right{
@@ -83,6 +85,7 @@
         background:rgba(239, 64, 53, 0.5); 
         border: none;
         outline: none;
+        -webkit-transition: 0.5s;
         transition: 0.5s;
     }
     .ourteam-btn:hover {
