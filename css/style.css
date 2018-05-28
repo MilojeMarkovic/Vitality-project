@@ -3,6 +3,7 @@
 *::before {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
 .row {
@@ -17,6 +18,7 @@ html {
   word-spacing: 1px; }
 
 body {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 /*  SECTIONS  ============================================================================= */
@@ -575,33 +577,46 @@ header {
   text-align: center; }
 
 .navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 35px; }
   .navigation-bar__small-bull-logo {
     height: 46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 4px; }
   .navigation-bar__list {
     text-decoration: none;
     color: white;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
   .navigation-bar__menu-settings {
     display: none; }
 
 .nav-item {
   text-align: left;
-  margin-right: 5.5px;
-  padding: 15px 15px; }
+  margin-right: 8px;
+  padding: 15px 13.6px; }
 
 .center-text {
-  padding-top: 185px; }
+  padding-top: 183px; }
   .center-text__bull-logo {
     max-width: 250px;
-    max-height: 250px; }
+    max-height: 250px;
+    margin-bottom: 5px; }
   .center-text__head-text {
     color: white;
     margin: 0 0; }
@@ -613,7 +628,7 @@ header {
     width: 150px;
     margin: 0 auto;
     margin-top: 15px;
-    margin-bottom: 15px; }
+    margin-bottom: 10px; }
   .center-text__paragraph-text {
     color: white;
     margin: 0 10px;
@@ -692,10 +707,12 @@ header {
   .ourteam-section .our-team-section__employee-photo {
     width: 339px;
     height: 341px;
+    -webkit-filter: brightness(60%);
     filter: brightness(60%); }
   .ourteam-section .our-team-section__emp-head, .ourteam-section .our-team-section__team-paragraph {
     color: rgba(255, 255, 255, 0.7);
     margin: 5px 0;
+    -webkit-filter: brightness(80%);
     filter: brightness(80%); }
   .ourteam-section .our-team-section__team-btn-right {
     position: absolute;
@@ -713,6 +730,7 @@ header {
     background: rgba(239, 64, 53, 0.5);
     border: none;
     outline: none;
+    -webkit-transition: 0.5s;
     transition: 0.5s; }
   .ourteam-section .ourteam-btn:hover {
     background-color: #EF4035; }
@@ -829,6 +847,7 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     background-color: transparent;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     border: 1px solid white;
     color: white;
@@ -836,6 +855,7 @@ header {
     font-size: 16px;
     cursor: pointer;
     outline: none;
+    -webkit-transition: 0.2s;
     transition: 0.2s; }
 
 /* PORTFOLIO SECTION */
@@ -905,6 +925,7 @@ header {
   border: none;
   outline: none;
   float: right;
+  -webkit-transition: .2s;
   transition: .2s; }
 
 .arrowheads__arrow-left {
@@ -918,6 +939,7 @@ header {
   border: none;
   outline: none;
   float: left;
+  -webkit-transition: .2s;
   transition: .2s; }
 
 /* PRICING SECTION */
@@ -948,6 +970,7 @@ header {
     border-left-color: #212529;
     margin-top: 20px;
     padding: 20px 35px;
+    -webkit-box-shadow: -30px 0 30px -30px #030303, 30px 0 30px -30px #030303;
     box-shadow: -30px 0 30px -30px #030303, 30px 0 30px -30px #030303; }
   .section-pricing__card-3 {
     background-color: white;
@@ -1018,6 +1041,7 @@ header {
   background-color: transparent;
   border-width: 1px;
   padding: 15px 15px;
+  -webkit-transition: 0.2s;
   transition: 0.2s; }
 
 .cardsettings__card-price {
@@ -1114,6 +1138,7 @@ footer.footer {
 
 /* CONTACT PHONE */
 .footer-text {
+  -webkit-filter: brightness(70%);
   filter: brightness(70%);
   margin-top: 100px;
   display: block;
@@ -1136,6 +1161,7 @@ footer.footer {
 
 /* VISIT TEXT */
 .footer-text1 {
+  -webkit-filter: brightness(70%);
   filter: brightness(70%);
   margin-top: 100px;
   position: relative;
@@ -1158,6 +1184,7 @@ footer.footer {
 
 /* EMAIL TEXT*/
 .footer-text2 {
+  -webkit-filter: brightness(70%);
   filter: brightness(70%);
   margin-top: 100px;
   display: block;
@@ -1179,6 +1206,7 @@ footer.footer {
     left: 20%; }
 
 .social-icons {
+  -webkit-filter: brightness(70%);
   filter: brightness(70%);
   font-size: 35px;
   color: white;
@@ -1208,6 +1236,7 @@ footer.footer {
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   color: white;
   font-weight: 900;
@@ -1215,6 +1244,7 @@ footer.footer {
   font-size: 16px;
   cursor: pointer;
   outline: none;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
   border: 1px solid white; }
 
@@ -1229,6 +1259,7 @@ footer.footer {
   border-color: #212529;
   outline: none;
   cursor: pointer;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Roboto"; }
 
@@ -1248,6 +1279,7 @@ footer.footer {
   border: none;
   outline: none;
   cursor: pointer;
+  -webkit-transition: .2s;
   transition: .2s; }
 
 .contact-btn {
@@ -1264,6 +1296,7 @@ footer.footer {
   text-transform: uppercase;
   font-weight: 900;
   background-color: transparent;
+  -webkit-transition: 0.2s;
   transition: 0.2s; }
 
 /* VITAL BUTTON */
@@ -1279,6 +1312,7 @@ footer.footer {
   padding: 50px 0;
   text-decoration: none;
   color: white;
+  -webkit-transition: 0.5s;
   transition: 0.5s; }
 
 .btn-block:hover {
