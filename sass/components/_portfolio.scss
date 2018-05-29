@@ -2,16 +2,6 @@
 /* PORTFOLIO SECTION */
 .section-portfolio {
 
-    &__portfolio-head:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
     &__grid-pic {
         max-width: 345px;
         margin: 8px 8px;

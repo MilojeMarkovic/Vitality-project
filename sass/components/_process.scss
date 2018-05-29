@@ -1,18 +1,5 @@
 //////////////////////////////////////////////////////////
 /* OUR PROCESS SECTION */
-.our-process {
-
-    &__process-head::after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 15px;             
-    }
-}
 .our-process-rows {
 
     &__process-text {

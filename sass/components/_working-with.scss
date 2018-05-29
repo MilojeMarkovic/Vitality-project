@@ -8,16 +8,6 @@
     &__expirience-head { 
         color: rgb(33, 37 , 41);
     }
-    &__expirience-head:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
     &__expirience-text {
         margin-bottom: 20px;
     }

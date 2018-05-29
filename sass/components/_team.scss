@@ -14,17 +14,6 @@
             margin-top: 10px;
         }
     
-        &__paragraph::after {
-            display: block;
-            height: 1px;
-            background-color: rgba(239, 64, 53, 0.5);
-            content: " ";
-            width: 150px;
-            margin: 0 auto;
-            margin-top: 20px;
-            margin-bottom: 20px;        
-        }
-    
         &__employees {
            position: relative;
            z-index: 1;

@@ -71,17 +71,6 @@ header {
         margin: 0 0;
     }
 
-    &__head-text::after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-
     &__paragraph-text {
         color: rgb(255, 255, 255);
         margin: 0 10px;

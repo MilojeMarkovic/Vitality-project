@@ -5,17 +5,7 @@
     &__vitality-description {
         margin-top: 10px;
     }
-
-    &__vitality-description:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
+    
     &__icon-big {
         font-size: 64px;
         display: block;

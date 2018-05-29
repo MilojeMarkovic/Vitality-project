@@ -27,15 +27,6 @@
     &__ourwork-paragraph {
         color: rgb(255, 255, 255);
     }
-    &__ourwork-paragraph:after {
-        display: block;
-        height: 1px;
-        background-color: rgb(239, 64, 53);
-        content: " ";
-        width: 150px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
     &__btn-details {
         display: inline-block;
         padding: 15px 15px;

@@ -2,16 +2,5 @@
 /* OUR WORK SECTION */
 .section-work { 
     background-color: rgb(240, 240, 240);
-
-    &__ourwork-head:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 }
 

@@ -8,18 +8,9 @@
         color: rgb(255, 255, 255);
         text-transform: uppercase;
     }
-    &__headnews:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
+    
     &__form-control {
-        width: 31%;
+        width: 53%;
         border: none;
         padding: 10px 16px 10px 16px;
         color: rgb(73, 80, 87); 

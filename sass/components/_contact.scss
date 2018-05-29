@@ -2,16 +2,6 @@
 /* CONTACT SECTION */
 .section-contact {
 
-    &__contact-us:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
     &__contact-text {
         margin-bottom: 2rem;
     }

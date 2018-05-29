@@ -12,7 +12,7 @@
         background-color: rgb(255, 255, 255);
         text-align: center;
         margin-top: 30px;
-        padding: 10px 35px;  
+        padding: 0 35px;  
         z-index: 1000;
         position: relative;
         float: right;
@@ -27,7 +27,7 @@
         border-right-color: rgb(33, 37 , 41);
         border-left-color: rgb(33, 37 , 41);
         margin-top: 20px;
-        padding: 20px 35px;
+        padding: 10px 30px;
         -webkit-box-shadow: -30px 0 30px -30px rgb(3, 3, 3), 30px 0 30px -30px rgb(3, 3, 3);
                 box-shadow: -30px 0 30px -30px rgb(3, 3, 3), 30px 0 30px -30px rgb(3, 3, 3);
     }
@@ -36,7 +36,7 @@
         background-color: rgb(255, 255, 255);
         text-align: center;
         margin-top: 30px;
-        padding: 10px 35px;  
+        padding: 0 35px;  
         z-index: 1000;
         position: relative;
         float: left;
@@ -47,16 +47,7 @@
     &__pricinghead {
         color: rgb(255, 255, 255);
     }
-    &__pricinghead:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 150px;
-        margin: 0 auto;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
+
     &__pricingtext {
         color: rgb(255, 255, 255);
     }
@@ -68,26 +59,18 @@
         text-transform: uppercase;
         color: rgb(33, 37 , 41);
     }
-    &__cardhead:after {
-        display: block;
-        height: 1px;
-        background-color: #EF4035;
-        content: " ";
-        width: 100px;
-        margin: 0 auto;
-        margin-top: 15px;
-    }
+
     &__card-details ul {
         list-style-type:none;
         text-decoration: none;
     }
     &__card-details {
         padding-bottom: 1.5rem;
-        padding-top: 1.5rem;
+        padding-top: 0.5rem;
     }
     &__card-details li {
         font-size: 16px;
-        border: 1px solid #d3d3d3;
+        border: 1px solid rgba(0, 0, 0, 0.125);
         padding: 15px 70px;
     }
     &__card-details li:not(:last-child) {
@@ -100,13 +83,16 @@
         color: rgb(34, 34, 34);
         font-weight: 900;
         font-size: 16px;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         margin-top: 20px;
+        margin-bottom: 5px;
         border-color: rgb(34, 34, 34);
         outline: none;
         cursor: pointer;
         background-color: transparent;
         border-width: 1px;
-        padding: 15px 15px;
+        line-height: 24px;
+        padding: 12px 18px;
         -webkit-transition: 0.2s;
         transition: 0.2s;
     }
@@ -120,12 +106,20 @@
         padding: 10px 4px;
         position: relative;
         bottom: 15px;
-        left: 15px;
+        left: 6px;
         font-weight: 900;
     }
-    &__month { font-size: 16px; }
+    &__month { 
+        font-size: 16px;
+        position: relative;
+        right: 12px;
+    }
     
-    &__number { font-weight: 900; }
+    &__number { 
+        font-weight: 900; 
+        position: relative;
+        right: 11px;
+    }
 }
 
 
