@@ -1140,8 +1140,8 @@ footer.footer {
   font-weight: 300;
   height: 2px;
   line-height: 24px;
-  margin-bottom: 11px;
-  margin-top: 11px;
+  margin-bottom: 13px;
+  margin-top: 9px;
   max-width: 150px;
   overflow-x: visible;
   overflow-y: visible;
@@ -1149,8 +1149,8 @@ footer.footer {
   text-size-adjust: 100%;
   unicode-bidi: isolate;
   width: 150px;
-  -webkit-margin-after: 11px;
-  -webkit-margin-before: 11px;
+  -webkit-margin-after: 13px;
+  -webkit-margin-before: 9px;
   -webkit-margin-end: auto;
   -webkit-margin-start: auto;
   -webkit-tap-highlight-color: transparent; }
