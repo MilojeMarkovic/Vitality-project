@@ -1,14 +1,14 @@
 /* HEADER */
 header {
     height: 100vh;
+    min-height: 700px;
     width: 100%;
     background-image: url(../img/backgrounds/bg-header.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
+    //background-attachment: fixed;
+    //background-position: top;
+    //background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-
 }
 .navigation-bar {
     display: -webkit-box;

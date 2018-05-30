@@ -1,11 +1,28 @@
 
 ///////////////////////////////////////////////////////
 /* OUR TEAM SECTION */
+.flex-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
 .ourteam-section { 
     background-color: rgb(240, 240, 240); 
 
     .our-team-section {
-
+        &__fb-icon:hover {
+            color:blue;
+        }
+        &__twit-icon:hover {
+            color:lightblue; 
+        }
+        &__linkd-icon:hover {
+            color:red;                 
+        }
+        &__basket-icon:hover {
+            color:orangered; 
+        }
         &__header {
             margin-bottom: 0;
         }
@@ -22,22 +39,6 @@
         &__emp-text {
             position: absolute;
             z-index: 2;
-            top: 31%;
-            left: 6%;
-        }
-    
-        &__emp-text--1 {
-            position: absolute;
-            z-index: 2;
-            top: 31%;
-            left: 40%;
-        }
-    
-        &__emp-text--2 {
-            position: absolute;
-            z-index: 2;
-            top: 31%;
-            right: 6%;
         }
     
         &__employee-photo {
@@ -51,19 +52,16 @@
         &__team-paragraph, {
             color: rgba(255, 255, 255, 0.7);
             margin: 5px 0;
-            -webkit-filter: brightness(80%);
-                    filter: brightness(80%);     
+            opacity: 0.8;     
         }
     
         &__team-btn-right{
             position: absolute;
-            right: 0;
-            top: 40%;
+            right: 5px;
         }
         &__team-btn-left {
             position: absolute;
-            left: 0;
-            top: 40%;
+            left: 5px;
         }
     }
     .ourteam-btn {
@@ -80,8 +78,4 @@
     .ourteam-btn:hover {
         background-color: #EF4035;
     }
-}
-.middle-photo {
-    margin-left: 25px;
-    margin-right: 25px; 
 }

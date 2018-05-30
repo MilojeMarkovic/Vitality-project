@@ -37,6 +37,7 @@
                 </div>
                 </div>
             </div>
+            </nav>
             <div class="center-text center-text-container">
                 <img src="img/profile.svg" alt="bull-logo" class="center-text__bull-logo">
                 <h1 class="center-text__head-text">Vitality</h1>
@@ -46,7 +47,6 @@
             <div class="scroll-down">
                 <button href="#" class="ion-chevron-down center-text__button"></button>
             </div>  
-        </nav>
     </header>
 
         <!-- ABOUT SECTION -->
@@ -94,40 +94,54 @@
                 <hr class="text__colored">
 
                 <div class="our-team-section__employees">
+                    <div class="col span-1-of-3 box flex-box-container">
                         <img src="img/team/1.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen">
-                        <div class="our-team-section__emp-text">
+                        <span class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Patricia West</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Markteing Director</p>
+                            <a href="#">
                             <i class="ion-social-facebook our-team-icon our-team-section__fb-icon"></i>
                             <i class="ion-social-twitter our-team-icon our-team-section__twit-icon"></i>
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
-                        </div> 
+                            </a>
+                        </span>
+
+                        <span class="our-team-section__team-btn-left">
+                                <button class="btn ourteam-btn">&#8249;</button>
+                        </span>
+                    </div>
+                    <div class="col span-1-of-3 box flex-box-container">
                     <img src="img/team/4.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen middle-photo">
-                    <div class="our-team-section__emp-text--1">
+                    <span class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Howard Scott</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Sales Manager</p>
+                            <a href="#">
                             <i class="ion-social-facebook our-team-icon our-team-section__fb-icon"></i>
                             <i class="ion-social-twitter our-team-icon our-team-section__twit-icon"></i>
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
-                    </div> 
+                            </a>
+                        </span>
+                </div>
+                    <div class="col span-1-of-3 box flex-box-container">
                     <img src="img/team/5.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen">
-                    <div class="our-team-section__emp-text--2">
+                    <span class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Kate Williams</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Creative Director</p>
+                            <a href="#">
                             <i class="ion-social-facebook our-team-icon our-team-section__fb-icon"></i>
                             <i class="ion-social-twitter our-team-icon our-team-section__twit-icon"></i>
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
                             <i class="ion-ios-basketball-outline our-team-icon our-team-section__basket-icon"></i>
-                    </div> 
-                    <div class="our-team-section__team-btn-left">
-                        <button class="btn ourteam-btn">&#8249;</button>
-                    </div>
-                    <div class="our-team-section__team-btn-right">
-                        <button class="btn ourteam-btn">&#8250;</button>
-                    </div>
+                            </a>
+                        </span>
+
+                    <span class="our-team-section__team-btn-right">
+                            <button class="btn ourteam-btn">&#8250;</button>
+                    </span>
+                </div>
                 </div>
             </div>
             </div>
@@ -136,7 +150,7 @@
 
         <!-- HOW WE WORK PART -->
         <section class="section-paddings section-howwework">
-            <div class="row">
+            <div class="row flex-box">
             <div class="container">
             <div class="how-we-work">
                 <p class="how-we-work__design-text">Good <span class="how-we-work__span-design">design</span> is finding that perfect balance between <br> the way something <span class="how-we-work__span-design">looks</span> and how it <span class="how-we-work__span-design">functions</span>.</p>
@@ -227,21 +241,15 @@
     
     <!-- OUR-WORK-PICTURE PART -->
     <section class="section-paddings our-work-pic">
-        <div class="row">
-            <div class="col span-1-of-2 left-box">
             <img src="img/macbook.png" alt="macbook-picture" class="our-work-pic__macbook-picture">
-            </div>
-
-            <div class="col span-1-of-2 right-box">
-            <div class="text-container"> 
+            
+        <div class="text-container"> 
             <h2 class="text-container__projectname-head">Project Name</h2>
             <p class="text-container__ourwork-paragraph">Branding, Website Design</p>
             <hr class="work__colored">
             <button class="btn--1 text-container__btn-details">View Details &rarr; </button>
-            </div>  
-            </div>
-
-            
+        </div> 
+        
     </section>
 
     <!-- PORTFOLIO PART -->
@@ -297,10 +305,11 @@
             </div>
 
             <div class="testimonials">
-              <div class="testimonial-author mini-container">
+              <div class="testimonial-author vital-container">
                 <div class="testimonial-img">
                     <img class="testimonials__rounded-circle img-fluid" src="img/testimonials/2.jpg" alt="">
                 </div>
+                <div class="name-part">
                 <h4 class="testimonials__name">Miloje Markovic</h4>
                 <p class="testimonials__small">CEO of MarkovichCompany</p>
                 <div class="testimonials__stars">
@@ -309,6 +318,7 @@
                   <i class="ion-star star"></i>
                   <i class="ion-star star"></i>
                   <i class="ion-star star"></i>
+                </div>
                 </div>
               </div>
             </div>
@@ -393,9 +403,11 @@
             <div class="newsletter__news container">
                 <h3 class="newsletter__headnews">Subscribe to our newsletter!</h3>
                 <hr class="text__colored">
+                <form class="form">
                 <div class="email">
                     <input type="email" name="EMAIL" class="newsletter__form-control" id="EMAIL" placeholder="Email address..."><span class="input-group-btn"><button type="submit" name="subscribe" id="embedded-subscribe" class="btn--1 subscribe-btn">Subscribe!</button></span>
                 </div>
+            </form>
             </div>
         </div>
     </section>
@@ -409,11 +421,13 @@
                 <p class="section-contact__contact-text">Please tell us about next project and we will let you know what we can do to help you.</p>
             </div>
             <div class="contact-form">
+                <form class="form">
                     <input type="Name" name="Name" class="section-contact__contact-name" placeholder="Name">
                     <input type="Email" name="Email" class="section-contact__contact-name" placeholder="Email Adress">
                     <input type="Phone" name="Phone" class="section-contact__contact-name" placeholder="Phone Number">
                     <textarea type="Message" name="Message" class="section-contact__message-textarea" placeholder="Message"></textarea>
-            </div>
+                </form>
+                </div>
             <div class="contact-button container">      
                     <button class="btn contact-btn">Send</button>
             </div>
@@ -426,14 +440,13 @@
     </div>
 
         <!-- FOOTER PART -->
-        <footer class="footer">
-            <div class="container">
+        <footer class="footer section-paddings">
+            <div class="footer-container">
             <div class="row footer-sections">
 
             <div class="col span-1-of-3">
                 <div class="footer-text">
-                    <i class="ion-ios-telephone footer-text__phone-icon"></i>
-                    <h4 class="footer-text__calls">Call</h4>
+                    <h4><span class="ion-ios-telephone footer-text__phone-icon"></span> Call</h4>
                 <ul class="footer-text__phone-list">
                     <li>555-213-4567</li>
                 </ul>                
@@ -441,32 +454,38 @@
         </div>
             <div class="col span-1-of-3">
             <div class="footer-text1">
-                <i class="ion-location footer-text1__location-icon"></i>
-                <h4 class="footer-text1__visits">Visit</h4>
+                <h4><span class="ion-location footer-text1__location-icon"></span> Visit</h4>
             <ul class="footer-text1__loc-list">
-                    <li>3481 Merlose Place</li>
-                    <li>Beverly Hills, CA 90210</li>
+                <li>3481 Merlose Place</li>
+                <li>Beverly Hills, CA 90210</li>
             </ul>    
             </div>
-            
+        
         </div>
             <div class="col span-1-of-3">
             <div class="footer-text2">
-                    <i class="ion-android-mail footer-text2__mail-icon"></i>
-                    <h4 class="footer-text2__mails">Email</h4>
-                <ul class="footer-text2__mail-list">    
-                    <li>mail@example.com</li>
-                </ul>
+                <h4><span class="ion-android-mail footer-text2__mail-icon"></span> Email</h4>
+            <ul class="footer-text2__mail-list">    
+                <li>mail@example.com</li>
+            </ul>
             </div>
             </div>
-
-            <div class="social-icons">
-                    <i class="ion-social-facebook social-icons__fb-icon"></i>
-                    <i class="ion-social-twitter social-icons__twit-icon"></i>
-                    <i class="ion-social-linkedin social-icons__linkd-icon"></i>
-            </div>
-        </div>    
-    </div>
-    </footer>
-    </body>
+        
+        
+        <div class="social-icons">
+            <a href="#">
+            <i class="ion-social-facebook social-icons__fb-icon"></i>
+            </a>
+            <a href="#">
+            <i class="ion-social-twitter social-icons__twit-icon"></i>
+            </a>
+            <a href="#">
+            <i class="ion-social-linkedin social-icons__linkd-icon"></i>
+            </a>
+        </div>
+</div>
+</div>
+ 
+</footer>
+</body>
 </html>

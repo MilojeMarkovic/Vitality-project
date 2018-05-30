@@ -7,16 +7,13 @@ footer.footer {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    position: relative;
 }
 /* CONTACT PHONE */
 .footer-text {
-    -webkit-filter: brightness(70%);
-            filter: brightness(70%);
-    margin-top: 100px;
+    opacity: 0.7;
     display: block;
     color: rgb(255, 255, 255);
-    float: right;
-    padding-right: 50px;
 
     &__calls {
         padding-bottom: 5px;
@@ -27,19 +24,15 @@ footer.footer {
         font-weight: 300;
         list-style: none;
         font-size: 22px;
+        margin-top: 15px;
     }
     &__phone-icon {
         font-size: 24px;
-        position: relative;
-        float: left;
-        left: 15%;
     }
 }
 /* VISIT TEXT */
 .footer-text1 {
-    -webkit-filter: brightness(70%);
-            filter: brightness(70%);
-    margin-top: 100px;
+    opacity: 0.7;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -54,23 +47,17 @@ footer.footer {
         font-weight: 300;
         list-style: none;
         font-size: 22px;
+        margin-top: 15px;
     }
     &__location-icon {
         font-size: 24px;
-        position: relative;
-        float: left;
-        left: 33%;
     }
 }
 /* EMAIL TEXT*/
 .footer-text2 {
-    -webkit-filter: brightness(70%);
-            filter: brightness(70%);
-    margin-top: 100px;
+    opacity: 0.7;
     display: block;
-    float: left;
     color: rgb(255, 255, 255);
-    padding-left: 50px;
 
     &__mails {
         padding-bottom: 5px;
@@ -81,22 +68,25 @@ footer.footer {
         font-weight: 300;
         list-style: none;
         font-size: 22px;
+        margin-top: 15px;
     }
     &__mail-icon {
         font-size: 24px;
-        position: relative;
-        float: left;
-        left: 20%;
     }
 }
 .social-icons {
-    -webkit-filter: brightness(70%);
-            filter: brightness(70%);
+    opacity: 0.7;
     font-size: 35px;
     color: rgb(255, 255, 255);
-    padding-top: 30%;
     letter-spacing: 10px;
-    margin-bottom: 100px;
+
+    position: absolute;
+    bottom: 1px;
+    width: 99%;
+    text-align: center;
+    display: block;
+    outline: none;
+    cursor: pointer;
 
     &__fb-icon:hover {
         color: blue;

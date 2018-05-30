@@ -26,10 +26,11 @@
         display: inline-block;
         border-right-color: rgb(33, 37 , 41);
         border-left-color: rgb(33, 37 , 41);
-        margin-top: 20px;
-        padding: 10px 30px;
+        margin-top: 30px;
+        padding: 0 35px;
         -webkit-box-shadow: -30px 0 30px -30px rgb(3, 3, 3), 30px 0 30px -30px rgb(3, 3, 3);
                 box-shadow: -30px 0 30px -30px rgb(3, 3, 3), 30px 0 30px -30px rgb(3, 3, 3);
+        transform: scale(1.05);    
     }
     /* CARD - 3*/
     &__card-3 {

@@ -7,6 +7,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .how-we-work {
     text-align: center;
@@ -15,7 +19,6 @@
         font-size: 40px;  
         color: rgb(255, 255, 255);
         font-weight: 300;
-        padding-top: 200px;
     }
     &__span-design {
         color: #EF4035;

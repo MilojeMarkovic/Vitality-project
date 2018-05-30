@@ -15,25 +15,21 @@
 .testimonials {
 
     &__name {
-        padding-right: 5px;
         margin-top: 10px;
         font-size: 16px;
-        float: right;
         color: rgb(33, 37 , 41);
     }
     &__small {
         font-size: 13px;
-        float: right;
     }
     &__stars {
         color:gold;
-        float: right;
-        padding-right: 30px
     }
     &__rounded-circle {
-        width: 70px;
+        width: 60px;
         border-radius: 50%;
-        float: left;
+        position: absolute;
+        left: 0;
     }
 }
 
