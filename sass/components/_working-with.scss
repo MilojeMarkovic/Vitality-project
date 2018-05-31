@@ -13,7 +13,6 @@
     }
 }
 .testimonials {
-
     &__name {
         margin-top: 10px;
         font-size: 16px;
@@ -30,6 +29,8 @@
         border-radius: 50%;
         position: absolute;
         left: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 

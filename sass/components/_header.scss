@@ -9,6 +9,33 @@ header {
     //background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    box-sizing:border-box;
+    color:rgb(33, 37, 41);
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    font-size:16px;
+    font-weight:300;
+    height:120px;
+    justify-content:flex-start;
+    left:0px;
+    line-height:24px;
+    padding-bottom:30px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:30px;
+    position:absolute;
+    right:0px;
+    text-align:left;
+    top:0px;
+    margin-top: 5px;
 }
 .navigation-bar {
     display: -webkit-box;
@@ -23,7 +50,6 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 35px; 
 
     &__small-bull-logo {
         height: 46px;
@@ -53,12 +79,10 @@ header {
 .nav-item {
         text-align: left;
         margin-right: 8px;
-        padding: 15px 13.6px;
+        padding: 14px 13.6px;
         
 }
 .center-text {
-
-    padding-top: 183px;
     
     &__bull-logo {
         max-width: 250px;
@@ -77,14 +101,14 @@ header {
         font-size: 32px;
         word-spacing: 0;
     }
+}
+.scroll-btn {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 
     &__button {
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-        text-align: center;
-        display: block;
-
         font-size: 30px;
         background-color: transparent;
         color: rgb(255, 255, 255);
@@ -92,4 +116,15 @@ header {
         outline: none;
         cursor: pointer;
     }
+}
+.scroll-down-trigger {
+    font-size: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    letter-spacing: normal;
+    color: white;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }

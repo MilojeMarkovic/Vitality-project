@@ -1,5 +1,8 @@
 //////////////////////////////////////////////////////////
 /* OUR PROCESS SECTION */
+.span-1-of-3 {
+    position: relative;
+}
 .our-process-rows {
 
     &__process-text {
@@ -13,10 +16,10 @@
     &__launch-icon {
         color: rgb(33, 37 , 41); 
         font-size: 69px;
-        float: left;
         padding: 0 5px;
+        position: absolute;
+        left: 0;
     }
-
 }
 .plans,
 .create,

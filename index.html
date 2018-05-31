@@ -18,8 +18,8 @@
 
     <body>
     <!-- HEADER -->
-    <header class="row">
-        <nav>
+    <header class="row header-section">
+        <nav class="navbar">
             <div class="navigation-bar-container">
                 <div class="navigation-bar">
                 <img src="img/logo.svg" alt="small-bull" class="navigation-bar__small-bull-logo">
@@ -44,13 +44,15 @@
                 <hr class="header__colored">
                 <p class="center-text__paragraph-text">by Start Bootstrap</p>
             </div> 
-            <div class="scroll-down">
-                <button href="#" class="ion-chevron-down center-text__button"></button>
+            <div class="scroll-btn">
+                <a class="scroll-down-trigger" href="#about">
+                <i class="ion-chevron-down scroll-btn__button"></i>
+                </a>
             </div>  
     </header>
 
         <!-- ABOUT SECTION -->
-        <section class="section-paddings about-section">
+        <section class="section-paddings about-section" id="about">
             <div class="row container">
                 <h2>A theme for creatives & agencies</h2>
                 <p class="about-section__vitality-description">Vitality is the perfect theme for a freelance professional or an agency</p>
@@ -96,7 +98,7 @@
                 <div class="our-team-section__employees">
                     <div class="col span-1-of-3 box flex-box-container">
                         <img src="img/team/1.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen">
-                        <span class="our-team-section__emp-text">
+                        <div class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Patricia West</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Markteing Director</p>
@@ -105,15 +107,15 @@
                             <i class="ion-social-twitter our-team-icon our-team-section__twit-icon"></i>
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
                             </a>
-                        </span>
+                        </div>
 
-                        <span class="our-team-section__team-btn-left">
+                        <div class="our-team-section__team-btn-left">
                                 <button class="btn ourteam-btn">&#8249;</button>
-                        </span>
+                        </div>
                     </div>
                     <div class="col span-1-of-3 box flex-box-container">
                     <img src="img/team/4.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen middle-photo">
-                    <span class="our-team-section__emp-text">
+                    <div class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Howard Scott</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Sales Manager</p>
@@ -122,11 +124,12 @@
                             <i class="ion-social-twitter our-team-icon our-team-section__twit-icon"></i>
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
                             </a>
-                        </span>
-                </div>
+                        </div>
+                    </div>
+                    
                     <div class="col span-1-of-3 box flex-box-container">
                     <img src="img/team/5.jpg" alt="person" class="our-team-section__employee-photo photo-for-smallscreen">
-                    <span class="our-team-section__emp-text">
+                    <div class="our-team-section__emp-text">
                             <h3 class="our-team-section__emp-head">Kate Williams</h3>
                             <hr class="team__colored">
                             <p class="our-team-section__team-paragraph">Creative Director</p>
@@ -136,11 +139,11 @@
                             <i class="ion-social-linkedin our-team-icon our-team-section__linkd-icon"></i>
                             <i class="ion-ios-basketball-outline our-team-icon our-team-section__basket-icon"></i>
                             </a>
-                        </span>
+                        </div>
 
-                    <span class="our-team-section__team-btn-right">
+                    <div class="our-team-section__team-btn-right">
                             <button class="btn ourteam-btn">&#8250;</button>
-                    </span>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -249,7 +252,7 @@
             <hr class="work__colored">
             <button class="btn--1 text-container__btn-details">View Details &rarr; </button>
         </div> 
-        
+
     </section>
 
     <!-- PORTFOLIO PART -->
@@ -326,9 +329,9 @@
         </div>
     </section>   
 
-    <!-- PRICING PART -->
-    <section class="section-paddings section-pricing">
-        <div class="container smallscreen-card-settings">
+<!-- PRICING PART -->
+<section class="section-paddings section-pricing">
+        <div class="pricing-container smallscreen-card-settings">
         <div class="row">
             <div class="pricing">
                 <h2 class="pricing__pricinghead">Pricing</h2>
