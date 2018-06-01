@@ -75,7 +75,7 @@ body {
 
 .span-1-of-3 {
   width: 32.26%; }
-  
+
 .span-1-of-3-team {
   width: 32.26%; }
 
@@ -761,10 +761,10 @@ header {
     position: absolute;
     z-index: 2; }
   .ourteam-section .our-team-section__employee-photo {
-    width: 339px;
-    height: 341px;
-    -webkit-filter: brightness(60%);
-    filter: brightness(60%); }
+    width: 340px;
+    height: 340px;
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%); }
   .ourteam-section .our-team-section__emp-head, .ourteam-section .our-team-section__team-paragraph {
     color: rgba(255, 255, 255, 0.7);
     margin: 5px 0;
