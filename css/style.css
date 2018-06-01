@@ -75,6 +75,9 @@ body {
 
 .span-1-of-3 {
   width: 32.26%; }
+  
+.span-1-of-3-team {
+  width: 32.26%; }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
@@ -675,22 +678,22 @@ header {
 .nav-item {
   text-align: left;
   margin-right: 8px;
-  padding: 14px 13.6px; }
+  padding: 13px 13.6px; }
 
-.center-text__bull-logo {
-  max-width: 250px;
-  max-height: 250px;
-  margin-bottom: 5px; }
-
-.center-text__head-text {
-  color: white;
-  margin: 0 0; }
-
-.center-text__paragraph-text {
-  color: white;
-  margin: 0 10px;
-  font-size: 32px;
-  word-spacing: 0; }
+.center-text {
+  margin-top: 4px; }
+  .center-text__bull-logo {
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 5px; }
+  .center-text__head-text {
+    color: white;
+    margin: 0 0; }
+  .center-text__paragraph-text {
+    color: white;
+    margin: 0 10px;
+    font-size: 32px;
+    word-spacing: 0; }
 
 .scroll-btn {
   position: absolute;
@@ -837,7 +840,7 @@ header {
 
 /* WORK PICTURE SECTION */
 .our-work-pic {
-  height: 974px;
+  height: 980px;
   background-image: url(../img/portfolio/carousel/bg-1.jpg);
   background-size: cover;
   position: relative;
@@ -850,9 +853,12 @@ header {
     width: 1000px; }
 
 .text-container {
-  grid-row: 4 / span 3;
-  grid-column: 4 / span 5;
-  text-align: left; }
+  grid-row: 4 / span 2;
+  grid-column: 3 / span 6;
+  text-align: left;
+  z-index: 20;
+  padding-left: 50px;
+  padding-top: 15px; }
   .text-container__projectname-head {
     color: white; }
   .text-container__ourwork-paragraph {
@@ -1161,7 +1167,7 @@ footer.footer {
   letter-spacing: 10px;
   position: absolute;
   bottom: 1px;
-  width: 99%;
+  width: 100%;
   text-align: center;
   display: block;
   outline: none;

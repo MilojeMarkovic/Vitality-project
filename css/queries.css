@@ -2,16 +2,11 @@
 
   .navigation-bar {
       margin-top: 0;
-      padding: 20px 40px;
+      padding: 0 40px;
   }
-  .center-text {
-      padding-top: 80px;
-  }
-  
   .section-howwework {
-      height: 120vh;
+      height: 110vh;
   }
-
   .our-work-pic {
       height: 770px;
   }
@@ -23,44 +18,48 @@
     grid-column: 4 / span 7;
     text-align: left;
   }
-
   .newsletter__form-control {
       width: 40%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-
   .text-container {
-      padding-top: 150px;
-      padding-left: 75px;
-  }
-
-  .newsletter__form-control {
-      width: 40%;
+    grid-column: 3 / span 8;
+    padding-left: 0;
+    padding-top: 0;
   }
 }
-
 @media only screen and (max-width: 990px) {
 
-
-    .navigation-bar {
-      margin-top: 0;
-      padding: 10px 20px;
+    .navbar {
+        margin: 0; 
+        height: 80px;
+        padding: 10px;
+        background-color:rgb(33, 37 , 41);
     }
-
-    .navigation-bar__small-bull-logo {
-        height: 40px;
-        margin-top: 6px;
+    .navigation-bar__list {
+        display: none;
     }
-
-    .navigation-bar-container {
-      background-color:rgb(33, 37 , 41);
+  
+    .navigation-bar__menu-settings {
+        display: flex;
+        margin-right: 30px;
+        padding: 15px;
+        color: white;
+        font-size: 15px;
+        word-spacing: 5px;
+        border-radius: 5px;
+        cursor: pointer; 
     }
-    .center-text__bull-logo {
-      max-width: 150px;
-      max-height: 150px;
+    .navigation-bar__menu-list {
+        padding-right: 3px;
     }
+    .navigation-bar__menu-settings:hover {
+        background-color: white;
+        color: black;
+    }
+    
     .center-text__head-text {
       font-size: 64px;
     }
@@ -72,46 +71,27 @@
       height: 270px !important;
       width: 270px !important;
     }
-
-    .middle-photo {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-    .icon-details {
-      padding: 15px 35px;
-      margin-bottom: 107px;
-    }
-    .our-team-section__emp-text {
-      left: 9% !important;
-    }
-    .our-team-section__emp-text--1 {
-      left: 39% !important;
-    }
-    .our-team-section__emp-text--2 {
-      right: 9% !important;
-    }
+    
     .our-team-section__team-btn-left {
-      left: 65px !important;
+      left: 25px !important;
     }
     .our-team-section__team-btn-right {
-      right: 65px !important;
+      right: 25px !important;
+    }
+
+    .mini-list {
+        margin-left: 50px;
     }
 
     .section-howwework {
       height: 100vh;
     }
-
     .our-work-pic {
-      height: 90vh;
+      height: 80vh;
     }
-
-  
-    .text-container {
-      padding-top: 100px;
-      padding-left: 75px;
-      padding-right: 20px;
+    .our-work-pic__macbook-picture {
+        width: 600px;
     }
-
     .section-portfolio__grid-pic {
       max-width: 221px;
     }
@@ -134,284 +114,164 @@
         margin-top: 0;
         padding: 10px 50px;
       }
-
-  .navigation-bar__list {
-      display: none;
-  }
-
-  .navigation-bar__menu-settings {
-      display: flex;
-      margin-right: 30px;
-      padding: 15px;
-      color: white;
-      font-size: 15px;
-      word-spacing: 5px;
-      border-radius: 5px;
-      cursor: pointer; 
-  }
-  .navigation-bar__menu-list {
-      padding-right: 3px;
-  }
-  .navigation-bar__menu-settings:hover {
-      background-color: white;
-      color: black;
-  }
-
-  .our-team-section__emp-text {
-      left: 6% !important;
-  }
-  .our-team-section__emp-text--1 {
-      left: 38% !important;
-  }
-  .our-team-section__emp-text--2 {
-      right: 6% !important;
-  }
-  .our-team-section__team-btn-left {
-      left: 20px !important;
-  }
-  .our-team-section__team-btn-right {
-      right: 20px !important;
-  }
-
-  .icon-details {
-      padding: 15px 20px;
-      margin-bottom: 107px;
-  }
-  .contact-btn {
+    
+    .navigation-bar__menu-settings {
+        margin-right: 30px;
+        padding: 10px;
+        height: 46px;
+    }
+    .our-team-section__team-btn-left {
+      left: 10px !important;
+    }
+    .our-team-section__team-btn-right {
+      right: 10px !important;
+    }
+    .contact-btn {
       margin-left: 60px;
-  }
+    }
 }
 
 @media only screen and (max-width: 800px) {
 
 
-  .span-1-of-4 { width: 100%; }
-  .col { margin: 0; }
+    .span-1-of-4 { width: 100%; }
+    .col { margin: 0; }
 
-  .photo-for-smallscreen {
-      height: 270px !important;
-      width: 270px !important;
-      margin: 0 10px;
-  }
-  .icon-details {
-      padding: 15px 13px;
-      margin-bottom: 107px;
-  }
-  .our-team-section__emp-text {
-      left: 20% !important;
-  }
-  .middle-photo {
-      display: none;
-  }
-  .our-team-section__emp-text--1 {
-      display: none;
-  }
-  .our-team-section__emp-text--2 {
-      right: 20% !important;
-  }
-  .our-team-section__team-btn-left {
-      left: 118px !important;
-  }
-  .our-team-section__team-btn-right {
-      right: 118px !important;
-  }
-
-  .our-work-pic__macbook-picture {
-      padding-top: 100px;
-      padding-left: 60px;
-      max-width: 120%;
-  }
-
-  .cardsettings__card-details li {
+    .photo-for-smallscreen {
+      height: 250px !important;
+      width: 250px !important;
+    }
+    .our-work-pic__macbook-picture {
+        width: 450px;
+    }
+    .our-team-section__team-btn-left {
+    left: 5px !important;
+    }
+    .our-team-section__team-btn-right {
+    right: 5px !important;
+    }
+    .text-container {
+        grid-row: 3 / span 3;
+    }
+    .cardsettings__card-details li {
       padding: 15px 10px;
-  }
+    }
 
-  .contact-btn {
+    .contact-btn {
       margin-left: 0;
   }
 }
 
 @media only screen and (max-width: 767px) {
 
-    .navigation-bar {
-        margin-top: 0;
-        padding: 10px 20px;
-      }
+    .span-1-of-3 { width: 100%; }
 
-  .span-1-of-3 { width: 100%; }
-
-  .how-we-work__design-text {
-      padding-top: 150px;
-  }
-
-  .photo-for-smallscreen {
-      height: 250px !important;
-      width: 250px !important;
-  }
-  .icon-details {
-      padding: 15px 0;
-      margin-bottom: 107px;
-  }
-  .our-team-section__emp-text {
-      left: 19% !important;
-  }
-  .our-team-section__emp-text--2 {
-      right: 19% !important;
-  }
-  .our-team-section__team-btn-left {
-      left: 120px !important;
-  }
-  .our-team-section__team-btn-right {
-      right: 120px !important;
-  }
-
-  .icon-details {
-      padding-left: 150px;
-  }
-
-  .section-portfolio__grid-pic {
+    .photo-for-smallscreen {
+      height: 230px !important;
+      width: 230px !important;
+    }
+    .our-team-section__team-btn-left {
+        left: 10px !important;
+        }
+        .our-team-section__team-btn-right {
+        right: 33px !important;
+    }
+    .section-portfolio__grid-pic {
       max-width: 300px;
-  }
-
-  .cardsettings__card-details li {
+    }
+    .responsive-container {
+        max-width: 320px;
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+    .cardsettings__card-details li {
       padding: 15px 130px;
-  }
-  .smallscreen-card-settings {
+    }
+    .smallscreen-card-settings {
       max-width: 540px;
       position: relative;
       float: none;
       z-index: 1;
-  }
-  .footer-text {
-      float: none;
-      padding-right: 0;
-  }
-  .footer-text2 {
-      float: none;
-      padding-left: 0;
-  }
-  .footer-text__phone-icon {
-      left: 44%;
-  }
-  .footer-text2__mail-icon {
-      left: 43%;
-  }
-  .social-icons {
-      padding-top: 80%;
-  }
+    }
+    .footer-text,
+    .footer-text1,
+    .footer-text2 {
+        margin-top: 10px;
+    }
+    .social-icons {
+        position: relative;
+        top: 10px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
-  .navigation-bar__menu-settings {
+    .navigation-bar__menu-settings {
       margin-right: 10px;
-  }
-  .our-work-pic {
+    } 
+    .our-work-pic {
       height: 60vh;
-  }
-  .left-box {
+    }
+    .our-work-pic__macbook-picture {
       display: none;
-  }
-  .text-container {
-      padding-top: 10px;
-      padding-left: 100px;
-      padding-right: 20px;
-      width: 575px;
-  }
-  .our-team-section__emp-text {
-      left: 8% !important;
-  }
-  .our-team-section__emp-text--2 {
-      right: 8% !important;
-  }
-  .our-team-section__team-btn-left {
-      left: 25px !important;
-  }
-  .our-team-section__team-btn-right {
-      right: 25px !important;
-  }
-
-  .icon-details {
-      padding-left: 25px;
-  }
-
-  .section-portfolio__grid-pic {
+    }
+    .our-team-section__emp-head {
+        font-size: 20px;
+    }
+    .photo-for-smallscreen {
+        height: 170px !important;
+        width: 170px !important;
+    }
+    .our-team-section__team-btn-left {
+        left: 10px !important;
+    }
+    .our-team-section__team-btn-right {
+        right: 25px !important;
+    }
+    .section-portfolio__grid-pic {
       max-width: 260px;
       margin: 4px 4px;
-  }
+    }
 
-  .newsletter__form-control {
+    .newsletter__form-control {
       width: 60%;
-  }
-  .section-contact__contact-name {
+    }
+    .section-contact__contact-name {
       width: 540px;
-  }
-  .section-contact__message-textarea {
+    }
+    .section-contact__message-textarea {
       width: 540px;
-  }
-
-  .footer-text__phone-icon {
-      left: 42%;
-  }
-  .footer-text2__mail-icon {
-      left: 41%;
-  }
-  .social-icons {
-      padding-top: 110%;
-  }
+    }
 }
 
 @media only screen and (max-width: 480px) {
 
-  .photo-for-smallscreen {
-      height: 200px !important;
-      width: 200px !important;
-  }
-  .text-container {
-      padding-top: 10px;
-      padding-left: 40px;
-      padding-right: 0;
-      width: 470px;
-  }
-  .our-team-section__emp-text {
-      left: 8% !important;
-      top: 10% !important;
-      max-width: 180px;
-  }
-  .our-team-section__emp-text--2 {
-      right: 8% !important;
-      top: 10% !important;
-      max-width: 180px;
-  }
-  .our-team-section__team-btn-left {
-      left: 28px !important;
-  }
-  .our-team-section__team-btn-right {
-      right: 28px !important;
-  }
-
-  .icon-details {
-      padding-left: 10px;
-  }
-
-  .section-portfolio__grid-pic {
+    .section-portfolio__grid-pic {
       max-width: 200px;
       margin: 4px 4px;
-  }
+    }
 
-  .section-contact__contact-name {
-      width: 460px;
-  }
-  .section-contact__message-textarea {
-      width: 460px;
-  }
+    .our-team-section__emp-head {
+        font-size: 16px;
+    }
+    .photo-for-smallscreen {
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .our-team-section__team-btn-left {
+        left: 0 !important;
+    }
+    .our-team-section__team-btn-right {
+        right: 10 !important;
+    }
 
-  .footer-text__phone-icon {
-      left: 41%;
-  }
-  .footer-text2__mail-icon {
-      left: 39%;
-  }
-  .social-icons {
-      padding-top: 120%;
-  }
+    .section-contact__contact-name {
+      width: 460px;
+    }
+    .section-contact__message-textarea {
+      width: 460px;
+    }
 }

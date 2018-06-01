@@ -14,7 +14,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .navbar {
     box-sizing:border-box;
     color:rgb(33, 37, 41);
@@ -79,10 +78,11 @@ header {
 .nav-item {
         text-align: left;
         margin-right: 8px;
-        padding: 14px 13.6px;
+        padding: 13px 13.6px;
         
 }
 .center-text {
+    margin-top: 4px;
     
     &__bull-logo {
         max-width: 250px;
