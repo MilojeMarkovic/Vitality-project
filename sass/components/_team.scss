@@ -12,15 +12,19 @@
 
     .our-team-section {
         &__fb-icon:hover {
+            transition: .2s;
             color:blue;
         }
         &__twit-icon:hover {
+            transition: .2s;
             color:lightblue; 
         }
         &__linkd-icon:hover {
+            transition: .2s;
             color:red;                 
         }
         &__basket-icon:hover {
+            transition: .2s;
             color:orangered; 
         }
         &__header {

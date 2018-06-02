@@ -743,6 +743,7 @@ header {
 .ourteam-section {
   background-color: #f0f0f0; }
   .ourteam-section .our-team-section__fb-icon:hover {
+    transition: .2s;
     color: blue; }
   .ourteam-section .our-team-section__twit-icon:hover {
     color: lightblue; }
