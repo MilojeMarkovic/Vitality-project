@@ -12,6 +12,13 @@
         margin-bottom: 20px;
     }
 }
+
+.testimonial-img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .testimonials {
     &__name {
         margin-top: 10px;
@@ -27,10 +34,6 @@
     &__rounded-circle {
         width: 60px;
         border-radius: 50%;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
     }
 }
 

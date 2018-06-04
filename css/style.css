@@ -76,9 +76,9 @@ body {
 .span-1-of-3 {
   width: 32.26%; }
 
-.span-1-of-3-team {
-  width: 32.26%; }
-
+  .span-1-of-3-team {
+    width: 32.26%; }
+  
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 @media only screen and (max-width: 480px) {
   .span-3-of-3 {
@@ -501,7 +501,7 @@ body {
   margin-left: auto; }
 
 .pricing-container {
-  max-width: 1120px;
+  max-width: 1130px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -512,16 +512,15 @@ body {
   max-width: 240px;
   width: 100%;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 30px;
   margin-right: auto;
-  margin-left: auto;
-  float: right; }
+  margin-left: auto; }
 
 .vital-container {
   max-width: 320px;
   width: 100%;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
   position: relative; }
@@ -746,10 +745,13 @@ header {
     transition: .2s;
     color: blue; }
   .ourteam-section .our-team-section__twit-icon:hover {
+    transition: .2s;
     color: lightblue; }
   .ourteam-section .our-team-section__linkd-icon:hover {
+    transition: .2s;
     color: red; }
   .ourteam-section .our-team-section__basket-icon:hover {
+    transition: .2s;
     color: orangered; }
   .ourteam-section .our-team-section__header {
     margin-bottom: 0; }
@@ -896,6 +898,12 @@ header {
 .vital-text__expirience-text {
   margin-bottom: 20px; }
 
+.testimonial-img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); }
+
 .testimonials__name {
   margin-top: 10px;
   font-size: 16px;
@@ -909,11 +917,7 @@ header {
 
 .testimonials__rounded-circle {
   width: 60px;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%); }
+  border-radius: 50%; }
 
 .arrowheads__arrow-right {
   font-size: 40px;
@@ -957,14 +961,12 @@ header {
     text-align: center;
     margin-top: 30px;
     padding: 0 25px;
-    z-index: 1000;
-    position: relative;
-    float: right; }
+    display: inline-block; }
   .section-pricing__card-2 {
     background-color: white;
     text-align: center;
     z-index: 3000;
-    position: absolute;
+    position: relative;
     display: inline-block;
     border-right-color: #212529;
     border-left-color: #212529;
@@ -978,9 +980,7 @@ header {
     text-align: center;
     margin-top: 30px;
     padding: 0 25px;
-    z-index: 1000;
-    position: relative;
-    float: left; }
+    display: inline-block; }
 
 .pricing__pricinghead {
   color: white; }
