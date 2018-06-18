@@ -148,7 +148,7 @@
     left: 5px !important;
     }
     .our-team-section__team-btn-right {
-    right: 5px !important;
+    right: 30px !important;
     }
     .text-container {
         grid-row: 3 / span 3;
@@ -262,10 +262,10 @@
         width: 150px !important;
     }
     .our-team-section__team-btn-left {
-        left: 0 !important;
+        left: 2px !important;
     }
     .our-team-section__team-btn-right {
-        right: 10 !important;
+        right: 18px !important;
     }
 
     .section-contact__contact-name {
